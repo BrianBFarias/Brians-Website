@@ -18,7 +18,7 @@ function MainSection() {
         <Button
           className='btns'
           buttonStyle='btn--outline'
-          buttonSize='btn--large'
+          buttonSize='btn--large1'
         >
           Create a Porject
         </Button>

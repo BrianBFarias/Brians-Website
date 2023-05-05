@@ -10,10 +10,7 @@ function MainSection() {
         <source src="/videos/main1.mp4" type="video/mp4">
         </source>
       </video>  
-      <h1 style={{color:'White' }}>ADVENTURE AWAITS</h1>
-     
-      <p style={{color:'White' }}></p>
-      
+      <h1 >ADVENTURE AWAITS</h1>   
       <div className='main-btns'>
         <Button
           className='btns'

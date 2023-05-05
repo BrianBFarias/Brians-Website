@@ -14,16 +14,23 @@ video {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0);
     object-fit: contain;
   }
 
-  * {
-    margin:0;
-    padding:0;
+  .main-container > h1{
+    color:rgba(198, 198, 198, 0.618);
+    font-size: 65px;
+    margin-top: -200px;
+    margin-bottom: 60px;
+    position: relative;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
   }
-  h1 {
-    font-size:3em;
-    padding-bottom:35px;
-    line-height: normal;
+
+  .main-container > p{
+    margin-top: 8px;
+    color: white;
+    font-size: 32px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }

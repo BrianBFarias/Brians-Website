@@ -12,14 +12,13 @@ function Cards() {
                     <CardItem 
                     src = "images/group-project.jpg"
                     text = "Find the project that best fits you"
-                    // small label on group project picture VVVV
-                    label = ""
                     path = '/services'
                     />
                   
                     <CardItem 
                     src = "images/Our-Story.jpg"
                     text = "Our Story"
+                    // small label on group project picture VVVV
                     label = "Founder/CFO"
                     path = '/services'
                     />

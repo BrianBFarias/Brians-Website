@@ -4,6 +4,7 @@ import './App.css';
 import Home from './components/pages/Home';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Cookies, CookiesProvider } from 'react-cookie';
+import Services from './component/pages/SignUp';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route path='/' element={<Home/>} />
+          <Route path='/services' component={Services}/>
         </Routes>
       </Router>
     </CookiesProvider>

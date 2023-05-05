@@ -56,6 +56,9 @@ function Footer() {
           </div>
         </div>
       </div>
+      <section className="social-media">
+        
+      </section>
     </div>
   )
 }

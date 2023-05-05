@@ -15,9 +15,10 @@
 }
 
 .home,
+.login,
 .services,
 .products,
-.sign-up {
+.sign-up{
   display: flex;
   height: 90vh;
   align-items: center;
@@ -25,16 +26,44 @@
   font-size: 3rem;
 }
 
+.TeamInfo{
+  align-items:flex-end;
+  justify-content: center;
+  display: flex;
+  height: 300px;
+  width: 300px;
+  margin-top: 20px;
+  margin-left: 20px;
+  background-size: cover;
+  color:rgba(227, 255, 142, 0.716);
+  background-image: url('/images/BrianPic.jpg');
+}
+
+.TeamInfo > *{
+  margin: auto;
+  text-align: center;
+}
+
+
 .services {
   background-image: url('/images/img-2.jpg');
   background-position: center;
-  background-size: cover;
+  background-size: fill;
   background-repeat: no-repeat;
   color: #fff;
   font-size: 100px;
 }
 
 .explore {
+  background-image: url('/images/img-1.jpg');
+  background-position: center;
+  background-size: fill;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.login {
   background-image: url('/images/img-1.jpg');
   background-position: center;
   background-size: fill;

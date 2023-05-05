@@ -6,6 +6,9 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Cookies, CookiesProvider } from 'react-cookie';
 import SignUp from './components/pages/SignUp';
 import Services from './components/pages/Services';
+import TeamInfo from './components/pages/TeamInfo';
+import Login from './components/pages/Login';
+
 
 function App() {
   return (
@@ -16,7 +19,9 @@ function App() {
         <Routes>
           <Route path='/' element={<Home/>} />
           <Route path='/sign-up' element={<SignUp/>} />
+          <Route path='/login' element={<Login/>} />
           <Route path='/services' element={<Services/>} />
+          <Route path='/TeamInfo' element={<TeamInfo/>} />
         </Routes>
       </Router>
     </CookiesProvider>

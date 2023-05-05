@@ -20,7 +20,7 @@ function Cards() {
                     text = "Our Story"
                     // small label on group project picture VVVV
                     label = "Founder/CFO"
-                    path = '/services'
+                    path = '/TeamInfo'
                     />
                 </ul>
             </div>

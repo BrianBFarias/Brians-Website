@@ -53,6 +53,15 @@ function Navbar() {
                 Explore
               </Link>
             </li>
+            <li className='nav-item'>
+              <Link
+                to='/login'
+                className='nav-links'
+                onClick={closeMobileMenu}
+              >
+                Login
+              </Link>
+            </li>
 
             <li>
               <Link

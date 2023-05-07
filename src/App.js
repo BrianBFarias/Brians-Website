@@ -7,7 +7,7 @@ import { Cookies, CookiesProvider } from 'react-cookie';
 import Resume from './components/pages/Resume';
 import Services from './components/pages/Services';
 import TeamInfo from './components/pages/TeamInfo';
-import Login from './components/pages/Login';
+import Intro from './components/pages/Login';
 
 
 function App() {
@@ -19,7 +19,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Home/>} />
           <Route path='/resume-pdf' element={<Resume/>} />
-          <Route path='/login' element={<Login/>} />
+          <Route path='/login' element={<Intro/>} />
           <Route path='/services' element={<Services/>} />
           <Route path='/TeamInfo' element={<TeamInfo/>} />
         </Routes>

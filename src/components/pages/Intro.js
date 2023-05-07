@@ -38,7 +38,7 @@ function AboutMe() {
         </p>
         <br/>
         <p>
-        I'm looking to improve my skills further while also being able to contribute as a part of a team. Please feel free to contact me via my Email Brian03032003@gmail.com or through my LinkedIn in my main menu screen.
+        I'm looking to improve my skills further while also being able to contribute as a part of a team. Please feel free to contact me directly through email or through my LinkedIn in my main menu screen at the bottom.
         </p>
       </div>
     </div>

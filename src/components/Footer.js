@@ -1,7 +1,20 @@
 import React from 'react';
 import './Footer.css';
-import { Button } from './Button';
 import { Link } from 'react-router-dom';
+import emailjs from "emailjs-com";
+import ContactUs from './contactForm.js';
+
+function sendEmail(e) {
+  e.preventDefault();
+  emailjs.sendForm('gmail', 'website_template', e.target, 'SHVR7fKbB9AkOyMWz')
+  .then((result) => {
+  console.log(result.text);
+  }, (error) => {
+  console.log(error.text);
+  });
+  e.target.reset()
+  }
+
 
 function Footer() {
   return (
@@ -10,16 +23,8 @@ function Footer() {
         <p className='footer-subscription-heading'>
           Feel free to contact me via my email I reply fast
         </p>
-        <div className='input-areas'>
-          <form>
-            <input
-              className='footer-input'
-              name='email'
-              type='email'
-              placeholder='Your Email'
-            />
-            <Button buttonStyle='btn--outline'>Reach out to me</Button>
-          </form>
+        <div className="container">
+          <ContactUs/>
         </div>
       </section>
       <div class='footer-links'>

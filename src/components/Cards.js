@@ -11,35 +11,35 @@ function Cards() {
           <ul className='cards__items'>
             <CardItem
               src='images/AVL.jpg'
-              text=''
+              text='UF student info AVL tree'
               label='C++'
-              path='/services'
+              path='https://github.com/BrianBFarias/Gator-AVL-Tree'
             />
             <CardItem
               src='images/Schedule.jpg'
-              text=''
+              text='Schedule Chomper'
               label='C++/SFML/Python'
-              path='/services'
+              path='https://github.com/BrianBFarias/Schedule-Chomper'
             />
           </ul>
           <ul className='cards__items'>
             <CardItem
               src='images/Pakudex.jpg'
-              text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
+              text='Pakudex: Pokemon holder'
               label='Java'
-              path='/services'
+              path='https://github.com/BrianBFarias/Pakudex'
             />
             <CardItem
               src='images/Cache.jpg'
-              text='Experience Football on Top of the Himilayan Mountains'
+              text='Cache simulation'
               label='C++'
-              path='/products'
+              path='https://github.com/BrianBFarias/Cache-Simulation'
             />
             <CardItem
               src='images/PageRank.jpg'
-              text='Ride through the Sahara Desert on a guided camel tour'
+              text='Simplified PageRank Algorithm'
               label='C++'
-              path='/sign-up'
+              path='https://github.com/BrianBFarias/PageRank-Algorithm'
             />
           </ul>
         </div>

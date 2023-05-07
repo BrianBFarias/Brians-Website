@@ -1,6 +1,7 @@
 import React from 'react';
 import '../App.css';
 import { Button } from './Button';
+import {Button1} from './Button1';
 import './MainSection.css';
 
 function MainSection() {
@@ -19,13 +20,14 @@ function MainSection() {
         >
           Resume
         </Button>
-        <Button
+        <Button1
           className='btns'
           buttonStyle='btn--primary'
           buttonSize='btn--large'
+          onClick={'/intro'}
         >
-          Join active Porjects
-        </Button>
+          Meet me
+        </Button1>
       </div>
     </div>
   );

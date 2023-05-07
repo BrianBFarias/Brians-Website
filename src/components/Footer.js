@@ -1,66 +1,55 @@
 import React from 'react';
-import {Button} from './Button';
-import './Footer.css'
+import './Footer.css';
+import { Button } from './Button';
 import { Link } from 'react-router-dom';
 
 function Footer() {
   return (
     <div className='footer-container'>
-        <section className='footer-subscription'>
-            <p className='footer-subscription-heading'>
-                join a team today
-            </p> 
-            <p className='footer-subscription-text'>
-                Subscribe for notifications on new projects 
-            </p> 
-
-            <div className="input-areas">
-                <form>
-                    <input type="email" name="email" placeholder="Your Email" className="footer-input"/>
-                    <Button buttonStyle = 'btn--outline'>Subscribe</Button>
-                </form>
-            </div>
-        </section>
-        <div class='footer-links'>
-        <div className='footer-link-wrapper'>
-          <div class='footer-link-items'>
-            <h2>About Us</h2>
-            <Link to='/sign-up'>How it works</Link>
-            <Link to='/'>Testimonials</Link>
-            <Link to='/'>Careers</Link>
-            <Link to='/'>Investors</Link>
-            <Link to='/'>Terms of Service</Link>
-          </div>
-          <div class='footer-link-items'>
-            <h2>Contact Us</h2>
-            <Link to='/'>Contact</Link>
-            <Link to='/'>Support</Link>
-            <Link to='/'>Destinations</Link>
-            <Link to='/'>Sponsorships</Link>
-          </div>
+      <section className='footer-subscription'>
+        <p className='footer-subscription-heading'>
+          Feel free to contact me via my email I reply fast
+        </p>
+        <div className='input-areas'>
+          <form>
+            <input
+              className='footer-input'
+              name='email'
+              type='email'
+              placeholder='Your Email'
+            />
+            <Button buttonStyle='btn--outline'>Reach out to me</Button>
+          </form>
         </div>
-        <div className='footer-link-wrapper'>
-          <div class='footer-link-items'>
-            <h2>Videos</h2>
-            <Link to='/'>Submit Video</Link>
-            <Link to='/'>Ambassadors</Link>
-            <Link to='/'>Agency</Link>
-            <Link to='/'>Influencer</Link>
-          </div>
-          <div class='footer-link-items'>
-            <h2>Social Media</h2>
-            <Link to='/'>Instagram</Link>
-            <Link to='/'>Facebook</Link>
-            <Link to='/'>Youtube</Link>
-            <Link to='/'>Twitter</Link>
-          </div>
-        </div>
+      </section>
+      <div class='footer-links'>
       </div>
-      <section className="social-media">
-        
+      <section class='social-media'>
+        <div class='social-media-wrap'>
+          <small class='website-rights'>Thanks for checking out my website</small>
+          <div class='social-icons'>
+            <Link
+              class='social-icon-link instagram'
+              to='https://www.instagram.com/brian.b.f/'
+              target='_blank'
+              aria-label='Instagram'
+            >
+              <i class='fab fa-instagram' />
+            </Link>
+
+            <Link
+              class='social-icon-link LinkedIn'
+              to='https://www.linkedin.com/in/bbfarias/'
+              target='_blank'
+              aria-label='LinkedIn'
+            >
+              <i class='fab fa-linkedin' />
+            </Link>
+          </div>
+        </div>
       </section>
     </div>
-  )
+  );
 }
 
-export default Footer
+export default Footer;

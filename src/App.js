@@ -4,7 +4,7 @@ import './App.css';
 import Home from './components/pages/Home';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Cookies, CookiesProvider } from 'react-cookie';
-import SignUp from './components/pages/SignUp';
+import Resume from './components/pages/Resume';
 import Services from './components/pages/Services';
 import TeamInfo from './components/pages/TeamInfo';
 import Login from './components/pages/Login';
@@ -18,7 +18,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route path='/' element={<Home/>} />
-          <Route path='/sign-up' element={<SignUp/>} />
+          <Route path='/resume-pdf' element={<Resume/>} />
           <Route path='/login' element={<Login/>} />
           <Route path='/services' element={<Services/>} />
           <Route path='/TeamInfo' element={<TeamInfo/>} />

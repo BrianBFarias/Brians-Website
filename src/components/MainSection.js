@@ -10,14 +10,14 @@ function MainSection() {
         <source src="/videos/main1.mp4" type="video/mp4">
         </source>
       </video>  
-      <h1 >ADVENTURE AWAITS</h1>   
+      <h1 >Welcome</h1>   
       <div className='main-btns'>
         <Button
           className='btns'
           buttonStyle='btn--outline'
           buttonSize='btn--large1'
         >
-          Create a Porject
+          Resume
         </Button>
         <Button
           className='btns'

@@ -12,14 +12,14 @@ function MainSection() {
         <source src="/videos/main1.mp4" type="video/mp4">
         </source>
       </video>  
-      <div className="typewriter-container">
+      <div className="typewriter-container2">
           <Typewriter
             options={{
               strings: ['print("Hello, World!")'],
               autoStart: true,
               loop: false,
               delay: 150,
-              pauseFor: 999999
+              pauseFor: 99999999
             }}
           />
         </div>

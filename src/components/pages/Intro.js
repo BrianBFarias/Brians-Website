@@ -5,9 +5,9 @@ import Typewriter from 'typewriter-effect';
 
 function AboutMe() {
   return (
-    <div className="about-me">
+    <div className="about-me-container">
       <div className="avatar">
-        <img src={'./images/BrianPic.jpg'} alt="Avatar" width="350px" height="350px" />
+        <img src={'./images/BrianPic.jpg'} alt="Avatar" width="350px" height="350px" style={{objectFit: "cover"}} />
       </div>
       <div className="info-container">
         <div className="typewriter-container">
@@ -40,6 +40,10 @@ function AboutMe() {
         <p>
         I'm looking to improve my skills further while also being able to contribute as a part of a team. Please feel free to contact me directly through email or through my LinkedIn in my main menu screen at the bottom.
         </p>
+        <br/>
+        <p></p>
+        <br/>
+        <p></p>
       </div>
     </div>
   );

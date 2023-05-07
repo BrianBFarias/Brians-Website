@@ -1,6 +1,7 @@
 import emailjs from '@emailjs/browser';
 import React, { useRef } from 'react';
 import './contactForm.css';
+import { Button } from './Button';
 
 export default function ContactUs() {
     const form = useRef();
@@ -29,7 +30,7 @@ export default function ContactUs() {
           <div className="form-group">
             <textarea id="message" name="message" placeholder='Type message'/>
           </div>
-          <button className="btn btn-primary" type="submit">Send</button>
+          <button className="btn-send" type="submit">Send</button>
         </form>
       );
 };

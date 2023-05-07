@@ -35,12 +35,16 @@ video {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
 
-  .typewriter-container {
-    font-size: 80px;
-    color:rgba(255, 200, 62, 0.501);
+  .typewriter-container2 {
+    font-size: 90px;
+    color:rgba(255, 193, 35, 0.429);
     font-weight: bold;
     text-align: center;
-    margin-bottom: 10px;
-    margin-top: 20px;
+    margin-bottom: -20px;
+    margin-top: -120px;
     margin-bottom: 200px;
+  }
+
+  .main-btns{
+    margin-top: -100px;
   }

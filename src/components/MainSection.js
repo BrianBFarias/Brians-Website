@@ -3,6 +3,7 @@ import '../App.css';
 import { Button } from './Button';
 import {Button1} from './Button1';
 import './MainSection.css';
+import Typewriter from 'typewriter-effect';
 
 function MainSection() {
   return (
@@ -11,7 +12,18 @@ function MainSection() {
         <source src="/videos/main1.mp4" type="video/mp4">
         </source>
       </video>  
-      <h1 >Welcome</h1>   
+      <div className="typewriter-container">
+          <Typewriter
+            options={{
+              strings: ['print("Hello, World!")'],
+              autoStart: true,
+              loop: false,
+              delay: 150,
+              pauseFor: 999999
+            }}
+          />
+        </div>
+        <br/>
       <div className='main-btns'>
         <Button
           className='btns'

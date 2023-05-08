@@ -13,6 +13,42 @@ function MainSection() {
   if(isMobile){
     typewriterClassName = 'typewriter-container-mobile';
     string = 'print("Hello World") on mobile';
+    return (
+      <div className='main-mobile-container'>
+        <video autoplay = "autoplay" loop muted >
+          <source src="/videos/main1.mp4" type="video/mp4">
+          </source>
+        </video>  
+        <div className = {typewriterClassName}>
+            <Typewriter
+              options={{
+                strings: [string],
+                autoStart: true,
+                loop: false,
+                delay: 150,
+                pauseFor: 99999999
+              }}
+            />
+          </div>
+          <br/>
+        <div className='main-btns'>
+          <Button
+            className='btns'
+            buttonStyle='btn--outline'
+            buttonSize='btn--large1'
+          >
+            Resume
+          </Button>
+          <Button1
+            className='btns1'
+            buttonStyle='btn--primary'
+            buttonSize='btn--large'
+          >
+            Meet me
+          </Button1>
+        </div>
+      </div>
+    );
   }
   // const string = isMobile ? 'typewriter-container-mobile' : 'typewriter-container-web")';
 

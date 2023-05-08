@@ -15,8 +15,7 @@ function MainSection() {
     string = 'print("Hello World") on mobile';
     return (
       <div className='main-mobile-container'>
-        <img src="/images/MobileBack.png" >
-        </img>  
+        <img className='MobileBackground' src="/images/MobileBack.png" ></img> 
         <div className = {typewriterClassName}>
             <Typewriter
               options={{

@@ -257,15 +257,16 @@
   justify-content: space-around;
   align-items: center;
   width: 90%;
-  margin-right: 20px;
+  margin-right: 10px;
   max-width: 600px;
 }
 
-.mobiel-social-icons {
+.mobile-social-icons {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: -10px;
+  width: 150px;
+  margin-right: -8px;
 }
 
 .mobile-icon-link {

@@ -6,16 +6,26 @@ import './MainSection.css';
 import Typewriter from 'typewriter-effect';
 
 function MainSection() {
+  const isMobile = /Mobi/.test(navigator.userAgent);
+  let typewriterClassName = 'typewriter-container-web';
+  var string = 'print("Hello World") on web';
+
+  if(isMobile){
+    typewriterClassName = 'typewriter-container-mobile';
+    string = 'print("Hello World") on mobile';
+  }
+  // const string = isMobile ? 'typewriter-container-mobile' : 'typewriter-container-web")';
+
   return (
     <div className='main-container'>
       <video autoplay = "autoplay" loop muted >
         <source src="/videos/main1.mp4" type="video/mp4">
         </source>
       </video>  
-      <div className="typewriter-container2">
+      <div className = {typewriterClassName}>
           <Typewriter
             options={{
-              strings: ['print("Hello, World!")'],
+              strings: [string],
               autoStart: true,
               loop: false,
               delay: 150,

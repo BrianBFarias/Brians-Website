@@ -61,7 +61,8 @@ function Footer() {
       </div>
       <section class='social-media'>
         <div class='social-media-wrap'>
-          <small class='website-rights'>Thanks for checking out my website</small>
+          <small class='website-rights'>Thanks for checking out my website. This website
+             has been optimized for mobile use so feel free to check it out on your mobile device</small>
           <div class='social-icons'>
             <Link
               class='social-icon-link instagram'

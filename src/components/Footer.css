@@ -137,9 +137,11 @@
   
   .website-rights {
     color: #fff;
+    width:400px;
+    text-align: center;
     font-size: medium;
     margin-top: -200px;
-    margin-left: -100px;
+    margin-left: -170px;
   }
   
   @media screen and (max-width: 820px) {

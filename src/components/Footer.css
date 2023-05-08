@@ -1,6 +1,6 @@
 .footer-container {
     background-color: #242424;
-    padding: 4rem 0 2rem 0;
+    padding: 3.5rem 0 1rem 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -118,7 +118,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 140px;
+    width: 160px;
+    margin-top: -230px;
+    margin-right: -50px;
   }
   
   .social-logo {
@@ -136,7 +138,8 @@
   .website-rights {
     color: #fff;
     font-size: medium;
-    margin-bottom: 26px;
+    margin-top: -200px;
+    margin-left: -100px;
   }
   
   @media screen and (max-width: 820px) {

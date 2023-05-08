@@ -1,0 +1,50 @@
+.hobbies-container {
+    background-color: rgb(250, 239, 226);
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .hobby {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    align-items: center;
+    text-align: center;
+  }
+  
+  
+  .hobby img {
+    margin-top: 5%;
+    min-width: 200px;
+    width: 30%;
+    height: 30%;
+    margin-right: 2%;
+    margin-left: 5%;
+  }
+  
+  .hobby h2 {
+    font-size: 34px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    font-style:initial;
+    color:rgb(82, 49, 8);
+  }
+  
+  .hobby p {
+    margin-top: 5px;
+    font:17px;
+    margin-left: 8%;
+    max-width:900px;
+    width:80%;
+    transition:1.5s
+  }
+
+  .hobby p:hover {
+    margin-top: 5px;
+    margin-left: 8%;
+    max-width:900px;
+    font-size: 19px;
+    Color:rgb(34, 40, 106);
+    width:80%;
+    transition:1.5s
+  }
+  

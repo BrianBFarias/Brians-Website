@@ -1,5 +1,5 @@
 
-.services,
+.hobbies,
 .explore{
   display: flex;
   height: 50vh;
@@ -15,7 +15,7 @@
 
 .home,
 .intro,
-.services,
+.hobbies,
 .products{
   display: flex;
   height: auto;
@@ -43,7 +43,7 @@
 }
 
 
-.services {
+.hobbie {
   background-image: url('/images/img-2.jpg');
   background-position: center;
   background-size: fill;

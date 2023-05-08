@@ -13,14 +13,14 @@ form {
     text-align: center;
   }
   input[type="email"]{
-    width: 350px;
+    width: 340px;
   }
   input[type="text"]{
     width: 250px;
   }
   textarea{
-    width: 500px;
-    height: 150px;
+    width: 360px;
+    height: 200px;
     margin-bottom: 20px;
   }
   input[type="text"],

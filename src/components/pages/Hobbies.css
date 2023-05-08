@@ -1,12 +1,12 @@
 .hobbies-container {
-    background-color: rgb(250, 239, 226);
-    display: flex;
+    background-color: rgb(236, 243, 253);
+    display: auto;
     flex-direction: column;
     overflow-x: hidden;
   }
   
   .hobby {
-    display: flex;
+    display: auto;
     flex-direction: row;
     margin-bottom: 20px;
     align-items: center;
@@ -53,13 +53,10 @@
   /*--------------MOBILE SECTION---------------------*/
 
   .mobile-hobbies-container {
-    display: none;
-  }
-
-  .mobile-hobbies-container {
-    display: flex;
+    background-color: rgb(236, 243, 253);
+    display: auto;
     flex-direction: column;
-    align-items: center;
+    overflow-x: hidden;  
   }
 
   .mobile-hobby {
@@ -73,5 +70,20 @@
   .mobile-hobby img {
     max-width: 100%;
     margin-bottom: 20px;
+  }
+
+  .mobile-hobby p {
+    margin-top: 5px;
+    font:17px;
+    margin-left: 8%;
+    width:80%;
+    transition:1.5s
+  }
+
+  .mobile-hobby h2 {
+    font-size: 34px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    font-style:initial;
+    color:rgb(58, 40, 18);
   }
   

@@ -1,16 +1,7 @@
-.about-me {
-  display: flex;
+.about-me-container {
+  background-color: rgb(236, 243, 253);
+  display: auto;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 80vh;  
-  overflow-x: hidden;
-}
-
-body {
-  background-color: rgb(250, 239, 226);
-  margin: 0;
-  padding: 0;
   overflow-x: hidden;
 }
 

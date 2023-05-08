@@ -13,15 +13,22 @@ form {
     text-align: center;
   }
   input[type="email"]{
-    width: 340px;
+    width: 310px;
   }
   input[type="text"]{
     width: 250px;
   }
   textarea{
-    width: 350px;
-    height: 200px;
+    width: 340px;
+    height: 240px;
     margin-bottom: 20px;
+  }
+  @media only screen and (min-width: 768px) {
+    /* targets devices with a minimum width of 768px (tablets and desktops) */
+    textarea {
+      width: 400px;
+      height: 200px;
+    }
   }
   input[type="text"],
   input[type="email"],

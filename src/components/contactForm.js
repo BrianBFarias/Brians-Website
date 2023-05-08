@@ -17,7 +17,6 @@ export default function ContactUs() {
         form.current.reset()
 
     };
-  
     return (
         <form ref={form} onSubmit={sendEmail}>
           <div className="form-group">

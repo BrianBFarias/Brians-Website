@@ -1,6 +1,5 @@
 
-.hobbies,
-.explore{
+.hobbies{
   display: flex;
   height: 50vh;
   justify-content:center;
@@ -15,33 +14,13 @@
 
 .home,
 .intro,
-.hobbies,
-.products{
+.hobbies{
   display: flex;
   height: auto;
   align-items: center;
   justify-content: center;
   font-size: 3rem;
 }
-
-.TeamInfo{
-  align-items:flex-end;
-  justify-content: center;
-  display: flex;
-  height: 300px;
-  width: 300px;
-  margin-top: 20px;
-  margin-left: 20px;
-  background-size: cover;
-  color:rgba(227, 255, 142, 0.716);
-  background-image: url('/images/BrianPic.jpg');
-}
-
-.TeamInfo > *{
-  margin: auto;
-  text-align: center;
-}
-
 
 .hobbie {
   background-image: url('/images/img-2.jpg');
@@ -52,21 +31,11 @@
   font-size: 100px;
 }
 
-.explore {
-  background-image: url('/images/img-1.jpg');
-  background-position: center;
-  background-size: fill;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
-}
 
 .resume-pdf {
   padding-top: 70px;
   position: fixed;
-  top: 0;
-  left: 0;
   width: 100%;
   height: 100%;
-  overflow-y: scroll;
+  overflow-y: hidden;
 }

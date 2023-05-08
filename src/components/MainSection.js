@@ -33,10 +33,9 @@ function MainSection() {
           Resume
         </Button>
         <Button1
-          className='btns'
+          className='btns1'
           buttonStyle='btn--primary'
           buttonSize='btn--large'
-          onClick={'/intro'}
         >
           Meet me
         </Button1>

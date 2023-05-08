@@ -1,4 +1,4 @@
-video {
+.WebVideo {
     object-fit:fill;
     width: 100%;
     height: 100vh;
@@ -72,4 +72,12 @@ video {
     box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0);
     object-fit: contain;
     overflow: hidden;
+  }
+
+  .mobileVideo {
+    object-fit:fill;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    z-index: -1;
   }

@@ -15,7 +15,7 @@ function MainSection() {
     string = 'print("Hello World") on mobile';
     return (
       <div className='main-mobile-container'>
-        <video autoplay = "autoplay" loop muted >
+        <video className = "mobileVideo" playinline autoplay = "autoplay" loop muted >
           <source src="/videos/main1.mp4" type="video/mp4">
           </source>
         </video>  
@@ -54,7 +54,7 @@ function MainSection() {
 
   return (
     <div className='main-container'>
-      <video autoplay = "autoplay" loop muted >
+      <video className = "WebVideo" autoplay = "autoplay" loop muted >
         <source src="/videos/main1.mp4" type="video/mp4">
         </source>
       </video>  

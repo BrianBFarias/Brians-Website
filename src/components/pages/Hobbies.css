@@ -48,13 +48,29 @@
     transition:1.5s
   }
 
-  .hobby p:hover {
-    margin-top: 5px;
-    margin-left: 8%;
-    max-width:900px;
-    font-size: 19px;
-    Color:rgb(34, 40, 106);
-    width:80%;
-    transition:1.5s
+
+  /*--------------MOBILE SECTION---------------------*/
+
+  .hobbies-container {
+    display: none;
+  }
+
+  .mobile-hobbies-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .mobile-hobby {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    text-align: center;
+  }
+
+  .mobile-hobby img {
+    max-width: 100%;
+    margin-bottom: 20px;
   }
   

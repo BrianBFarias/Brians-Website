@@ -33,9 +33,8 @@
 
 
 .resume-pdf {
-  padding-top: 70px;
-  position: fixed;
+  position:absolute;
   width: 100%;
   height: 100%;
-  overflow-y: hidden;
+  overflow-y: scroll;
 }

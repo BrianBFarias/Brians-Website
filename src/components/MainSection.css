@@ -49,10 +49,21 @@
     margin-top: -120px;
     margin-bottom: 200px;
   }
+
+  @media (min-width: 768px) {
+    /* Only apply this rule for screens wider than 768px */
+    @keyframes fade-in {
+      from { opacity: 0; }
+      to { opacity: 0.6; }
+    }
+  }
   
-  @keyframes fade-in {
-    from { opacity: 0; }
-    to { opacity: 0.6; }
+  @media (max-width: 767px) {
+    /* Only apply this rule for screens narrower than 768px */
+    @keyframes fade-in {
+      from { opacity: 0; }
+      to { opacity: 0.65; }
+    }
   }
 
   .main-btns{
@@ -74,28 +85,18 @@
     overflow: hidden;
     background-position: center top;
   }
-
-  .typewriter-container-mobile {
-    font-size: 40px;
-    color:rgba(255, 193, 35, 0.429);
-    font-weight: bold;
-    text-align: center;
-    margin-top: -120px;
-    margin-bottom: 200px;
-    width:100%;
-  }
   .welcome-mobile {
     opacity: 0;
     font-size: 40px;
     animation-name: fade-in;
-    color:rgb(1, 1, 4);
-    animation-delay: 0.8s;
-    animation-duration: 4.5s;
+    color:rgb(233, 234, 255);
+    animation-delay: 1s;
+    animation-duration: 5s;
     animation-fill-mode: forwards;
     font-weight: bold;
     text-align: center;
-    margin-top: -120px;
-    margin-bottom: 200px;
+    margin-top: -15%;
+    margin-bottom: 50%;
     width:100%;
   }
 

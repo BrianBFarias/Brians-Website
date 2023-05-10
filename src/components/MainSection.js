@@ -7,25 +7,13 @@ import Typewriter from 'typewriter-effect';
 
 function MainSection() {
   const isMobile = /Mobi/.test(navigator.userAgent);
-  let typewriterClassName = 'typewriter-container-web';
-  var string = 'print("Hello World") on web';
 
   if(isMobile){
-    typewriterClassName = 'typewriter-container-mobile';
-    string = 'print("Hello World") on mobile';
     return (
       <div className='main-mobile-container'>
-        <img className='MobileBackground' src="/images/MobileBack.png" ></img> 
-        <div className = {typewriterClassName}>
-            <Typewriter
-              options={{
-                strings: [string],
-                autoStart: true,
-                loop: false,
-                delay: 150,
-                pauseFor: 99999999
-              }}
-            />
+        <video className='MobileVideo' src="/images/Background.mp4" type="video/mp4" autoPlay playsInline loop muted></video> 
+        <div className = 'welcome-mobile'>
+          <h1>Welcome</h1>
           </div>
           <br/>
         <div className='main-btns'>
@@ -55,16 +43,8 @@ function MainSection() {
         <source src="/videos/main1.mp4" type="video/mp4">
         </source>
       </video>  
-      <div className = {typewriterClassName}>
-          <Typewriter
-            options={{
-              strings: [string],
-              autoStart: true,
-              loop: false,
-              delay: 150,
-              pauseFor: 99999999
-            }}
-          />
+      <div className = 'welcome-web'>
+        <h1>Welcome</h1>
         </div>
         <br/>
       <div className='main-btns'>

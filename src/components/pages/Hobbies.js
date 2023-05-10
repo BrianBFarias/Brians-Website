@@ -11,7 +11,7 @@ function Hobbies() {
           <img src="./images/swim.jpg" alt="hobby1" />
           <div>
             <h2>Swimming</h2>
-            <p>During Highschool I was privleged with being captain of the swim team. I really enjoyed my years swimming and when I come back home sometimes ill 
+            <p>During Highschool I was privleged with being captain of the swim team. I really enjoyed my years swimming and when I come back home sometimes I'll 
               swim a little just so I can make sure im still in athletic shape </p>
           </div>
         </div>
@@ -19,7 +19,7 @@ function Hobbies() {
           <img src="./images/SW.jpg" alt="hobby2" />
           <div>
             <h2>Working out</h2>
-            <p>Since swimming I've picked up working out, where I go to UF's weightlifting gym 5 times a week, never skipping a day. Working out allows me to pipckup
+            <p>Since swimming I've picked up working out, where I go to UF's weightlifting gym 5 times a week, never skipping a day. Working out allows me to pick up
               on something I persistenetly work on while being able to socialize with friends </p>
           </div>
         </div>
@@ -51,8 +51,8 @@ function Hobbies() {
         <img src="./images/SW.jpg" alt="hobby2" />
         <div>
           <h2>Working out</h2>
-          <p>Since swimming I've picked up working out, where I go to UF's weightlifting gym 5 times a week, never skipping a day. Working out allows me to pipckup
-            on something I persistenetly work on while being able to socialize with friends </p>
+          <p>Since swimming I've picked up working out, where I go to UF's weightlifting gym 5 times a week, never skipping a day. Working out allows me to pick up
+              on something I persistenetly work on while being able to socialize with friends</p>
         </div>
       </div>
       <div className="hobby">

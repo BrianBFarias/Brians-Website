@@ -35,18 +35,20 @@
   
   .hobby h2 {
     font-size: 34px;
+    margin-left: 3%;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
     font-style:initial;
     color:rgb(82, 49, 8);
+    text-align: center;
   }
   
   .hobby p {
     margin-top: 5px;
     font:17px;
-    margin-left: 8%;
-    max-width:900px;
-    width:80%;
-    transition:1.5s
+    max-width:50%;
+    margin-left: 25%;
+    transition:1.5s;
+    text-align: center;
   }
 
 

@@ -1,13 +1,13 @@
 .WebVideo {
-    object-fit:fill;
+    object-fit:cover;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     position: absolute;
     z-index: -1;
   }
   
   .main-container {
-    height: fit-content;
+    height: 100vh;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -17,40 +17,80 @@
     object-fit: contain;
     overflow: hidden;
   }
-
-  .welcome-web {
-    opacity: 0;
-    font-size: 90px;
-    animation-name: fade-in;
-    color:rgba(255, 193, 35, 1);
-    animation-delay: 0.3s;
-    animation-duration: 4.5s;
-    animation-fill-mode: forwards;
-    font-weight: bold;
-    text-align: center;
-    margin-top: 5%;
-    margin-bottom: 14%;
-  }
-
   @media (min-width: 768px) {
+    .welcome-web {
+      opacity: 0;
+      font-size: 90px;
+      animation-name: fade-in;
+      color:rgba(255, 193, 35, 1);
+      animation-delay: 0.3s;
+      animation-duration: 4.5s;
+      animation-fill-mode: forwards;
+      font-weight: bold;
+      text-align: center;
+      margin-top: 5vh;
+      min-height: 10vh;
+      margin-bottom: 14vh;
+    }
     /* Only apply this rule for screens wider than 768px */
     @keyframes fade-in {
       from { opacity: 0; }
       to { opacity: 0.6; }
     }
+    .main-btns{
+      margin-top: -100px;
+    }
+  
   }
   
   @media (max-width: 767px) {
+    .welcome-web {
+      opacity: 0;
+      font-size: 90px;
+      animation-name: fade-in;
+      color:rgba(255, 193, 35, 1);
+      animation-delay: 0.3s;
+      animation-duration: 4.5s;
+      animation-fill-mode: forwards;
+      font-weight: bold;
+      text-align: center;
+      margin-top: 5vh;
+      min-height: 10vh;
+      margin-bottom: 14vh;
+    }
     /* Only apply this rule for screens narrower than 768px */
     @keyframes fade-in {
       from { opacity: 0; }
       to { opacity: 0.65; }
     }
+    .main-btns{
+      margin-top: -100px;
+    }
+  
   }
 
-  .main-btns{
-    margin-top: -100px;
+  @media (min-width:1400px){
+    .welcome-web {
+      opacity: 0;
+      font-size: 150px;
+      animation-name: fade-in;
+      color:rgba(255, 193, 35, 1);
+      animation-delay: 0.3s;
+      animation-duration: 4.5s;
+      animation-fill-mode: forwards;
+      font-weight: bold;
+      text-align: center;
+      margin-top: 10%;
+      min-height: 10vh;
+      margin-bottom: 14vh;
+    }
+    .main-btns{
+      margin-top: 10%;
+    }
+  
   }
+
+
 
   /*----------------Mobile-------------*/
   .main-mobile-container {

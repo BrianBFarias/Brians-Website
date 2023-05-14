@@ -2,7 +2,8 @@
   background-color: rgb(236, 243, 253);
   display: auto;
   flex-direction: column;
-  overflow-x: hidden;
+  overflow: hidden;
+  height: 100vh;
 }
 
 .avatar {
@@ -10,16 +11,32 @@
   text-align: center;
 }
 
-.avatar img {
-  width: 300px;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  height: auto;
-  margin-left: 15px;
-  align-items: center;
-  border-radius: 50%;
-  border: 2px solid #333;
+@media(max-width: 780px){
+  .avatar img {
+    width: 300px;
+    margin-top: 50px;
+    margin-bottom:13cm;
+    height: auto;
+    margin-left: 15px;
+    align-items: center;
+    border-radius: 50%;
+    border: 2px solid #333;
+  }
 }
+
+@media(min-width: 781px){
+  .avatar img {
+    width: 440px;
+    margin-top: 50px;
+    margin-bottom:10cm;
+    height: auto;
+    margin-left: 15px;
+    align-items: center;
+    border-radius: 50%;
+    border: 20px double #333;
+  }
+}
+
 
 .info-container > p {
   width: 80%;
@@ -37,7 +54,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100%;
+  height: 0;
   text-align: center;
 }
 

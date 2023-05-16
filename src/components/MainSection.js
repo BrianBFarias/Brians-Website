@@ -3,7 +3,6 @@ import '../App.css';
 import { Button } from './Button';
 import {Button1} from './Button1';
 import './MainSection.css';
-import Typewriter from 'typewriter-effect';
 
 function MainSection() {
   const isMobile = /Mobi/.test(navigator.userAgent);

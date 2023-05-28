@@ -6,7 +6,7 @@ import ContactUs from './contactForm.js';
 
 function Footer() {
   const isMobile = /Mobi/.test(navigator.userAgent);
-  var string="Thanks for checking out my website. This website has been optimized for mobile use so feel free to check it out on your mobile device too!!!";
+  var string="Thanks for checking out my website!";
 
   if(window.innerWidth<=1000){
     string= null;
@@ -27,7 +27,7 @@ function Footer() {
         </div>
         <section class='mobile-social-media'>
           <div class='mobile-media-wrap'>
-            <small class='mobile-footer-notes'>Thanks for checking out my website</small>
+            <small class='mobile-footer-notes'>{string}</small>
             <div class='mobile-social-icons'>
               <Link
                 class='mobile-icon-link instagram'

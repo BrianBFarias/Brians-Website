@@ -21,6 +21,12 @@ function Cards() {
               label='C++/SFML/Python'
               path='https://github.com/BrianBFarias/Schedule-Chomper'
             />
+            <CardItem
+              src='images/Auction.png'
+              text='ecommerce website'
+              label='HTML/CSS/Python/SQL'
+              path='https://github.com/BrianBFarias/ecommerce-website.git'
+            />
           </ul>
           <ul className='cards__items'>
             <CardItem

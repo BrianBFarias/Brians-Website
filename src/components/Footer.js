@@ -56,7 +56,7 @@ function Footer() {
     <div className='footer-container'>
       <section className='footer-subscription'>
         <p className='footer-subscription-heading'>
-          Feel free to contact me via my email I reply fast
+          Reach out to me
         </p>
         <div className="container">
           <ContactUs/>

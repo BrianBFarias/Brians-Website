@@ -1,9 +1,9 @@
 .about-me-container {
   background-color: rgb(236, 243, 253);
-  display: auto;
-  flex-direction: column;
-  height: 120vh;
-  overflow-y: scroll;
+  display: grid;
+}
+.about-me-container div{
+  height: fit-content;
 }
 
 .avatar {
@@ -20,8 +20,7 @@
   height: auto;
   border-radius: 30%;
   border: 3px solid #333;
-  border-top-left-radius: 0%;
-  border-bottom-right-radius: 0%;
+
 }
 
 
@@ -47,8 +46,6 @@
   .avatar img {
     width: 380px;
     border-radius: 1%;
-    border-top-left-radius: 40%;
-    border-top-right-radius: 40%;
   }
 }
 

@@ -52,6 +52,7 @@ function AboutMe() {
     );
   }
   return (
+    
     <div className="about-me-container">
       <div className="avatar">
         <img src={'./images/BrianPic.jpg'} alt="Avatar" width="350px" height="350px" style={{objectFit: "cover"}} />
@@ -65,6 +66,10 @@ function AboutMe() {
               loop: false,
               delay: 100,
               pauseFor: 999999
+            }}
+            onMount={() => {
+              // Start the typewriter effect
+              this.typewriter.start();
             }}
           />
         </div>

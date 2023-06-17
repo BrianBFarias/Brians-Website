@@ -31,13 +31,6 @@ function MainSection() {
               >
                 Resume
               </Button>
-              <Button1
-                className='btns1'
-                buttonStyle='btn--primary'
-                buttonSize='btn--large'
-              >
-                Meet me
-              </Button1>
             </div></>
           )}
       </div>
@@ -61,21 +54,6 @@ function MainSection() {
       {isVideoLoaded && (
         <><div className="welcome-web">
           <h1>Welcome</h1>
-        </div><br /><div className='main-btns'>
-            <Button
-              className='btns'
-              buttonStyle='btn--outline'
-              buttonSize='btn--large1'
-            >
-              Resume
-            </Button>
-            <Button1
-              className='btns1'
-              buttonStyle='btn--primary'
-              buttonSize='btn--large'
-            >
-              Meet me
-            </Button1>
           </div></>
       )}
     </div>

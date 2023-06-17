@@ -24,13 +24,6 @@ function MainSection() {
           <><div className="welcome-mobile">
             <h1>Welcome</h1>
           </div><br /><div className='main-btns'>
-              <Button
-                className='btns'
-                buttonStyle='btn--outline'
-                buttonSize='btn--large1'
-              >
-                Resume
-              </Button>
             </div></>
           )}
       </div>

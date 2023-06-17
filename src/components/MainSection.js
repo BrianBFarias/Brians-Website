@@ -1,7 +1,5 @@
 import React, { useState, useEffect } from "react";
 import '../App.css';
-import { Button } from './Button';
-import {Button1} from './Button1';
 import './MainSection.css';
 
 function MainSection() {
@@ -23,7 +21,6 @@ function MainSection() {
         {isVideoLoaded && (
           <><div className="welcome-mobile">
             <h1>Welcome</h1>
-          </div><br /><div className='main-btns'>
             </div></>
           )}
       </div>

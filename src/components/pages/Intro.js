@@ -9,9 +9,6 @@ function AboutMe() {
   if(isMobile){
     return (
       <div className="about-me-container">
-        <div className="Mob-avatar">
-          <img src={'./images/BrianPic.jpg'} alt="Avatar" width="350px" height="350px" style={{objectFit: "cover"}} />
-        </div>
         <div className="info-container">
           <div className="typewriter-container">
             <Typewriter
@@ -54,9 +51,7 @@ function AboutMe() {
   return (
     
     <div className="about-me-container">
-      <div className="avatar">
-        <img src={'./images/BrianPic.jpg'} alt="Avatar" width="350px" height="350px" style={{objectFit: "cover"}} />
-      </div>
+
       <div className="info-container">
         <div className="typewriter-container">
           <Typewriter
@@ -64,7 +59,7 @@ function AboutMe() {
               strings: ["Hello, I'm Brian"],
               autoStart: true,
               loop: false,
-              delay: 100,
+              delay: 400,
               pauseFor: 999999
             }}
             onMount={() => {

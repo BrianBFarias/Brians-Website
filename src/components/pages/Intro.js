@@ -12,7 +12,7 @@ function AboutMe() {
           <div className="typewriter-container">
             <h3>My skills</h3>
           </div>
-          <div id='skills'>
+          <div id='skills-mobile'>
           <li className='code'>C++</li>
           <li className='code'>SQL</li>
           <li className='code'>HTML</li>

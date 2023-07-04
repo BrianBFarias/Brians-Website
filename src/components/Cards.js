@@ -36,10 +36,10 @@ function Cards() {
               path='https://github.com/BrianBFarias/Pakudex'
             />
             <CardItem
-              src='images/Cache.jpg'
-              text='Cache simulation'
-              label='C++'
-              path='https://github.com/BrianBFarias/Cache-Simulation'
+              src='images/Mail.jpg'
+              text='Mail with Mail API'
+              label='CSS/HTML/Javscript'
+              path='https://github.com/BrianBFarias/Mail-API'
             />
             <CardItem
               src='images/PageRank.jpg'

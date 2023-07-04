@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import '../App.css';
 import './MainSection.css';
+import Typewriter from 'typewriter-effect';
 
 function MainSection() {
   const isMobile = /Mobi/.test(navigator.userAgent);
@@ -20,7 +21,15 @@ function MainSection() {
         <video className='MobileVideo' src="/images/Background.mp4" type="video/mp4" autoPlay playsInline loop muted></video> 
         {isVideoLoaded && (
           <><div className="welcome-mobile">
-            <h1>Welcome</h1>
+            <Typewriter
+              options={{
+                strings: ["Hello, I'm Brian"],
+                autoStart: true,
+                loop: false,
+                delay: 100,
+                pauseFor: 999999
+              }}
+            />
             </div></>
           )}
       </div>
@@ -43,7 +52,15 @@ function MainSection() {
       </video>  
       {isVideoLoaded && (
         <><div className="welcome-web">
-          <h1>Welcome</h1>
+          <Typewriter
+              options={{
+                strings: ["Hello, I'm Brian"],
+                autoStart: true,
+                loop: false,
+                delay: 100,
+                pauseFor: 999999
+              }}
+            />
           </div></>
       )}
     </div>

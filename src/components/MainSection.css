@@ -7,7 +7,7 @@
   }
   
   .main-container {
-    height: 100vh;
+    height: 60vh;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -21,14 +21,13 @@
     .welcome-web {
       opacity: 0;
       font-size: 90px;
-      padding-bottom: 50vh;
+      padding-bottom: 20vh;
       animation-name: fade-in;
       color:rgba(255, 193, 35, 1);
       animation-delay: 0.3s;
       animation-duration: 4.5s;
       animation-fill-mode: forwards;
       font-weight: bold;
-      text-align: top;
       margin-bottom: 14vh;
     }
     /* Only apply this rule for screens wider than 768px */

@@ -34,7 +34,6 @@ function AboutMe() {
   return (
     
     <div className="about-me-container">
-
       <div className="info-container">
         <div className="typewriter-container">
         <h3>My skills</h3>

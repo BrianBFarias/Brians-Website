@@ -30,6 +30,12 @@ function Cards() {
           </ul>
           <ul className='cards__items'>
             <CardItem
+              src='images/network.png'
+              text='Linker: networking site'
+              label='Python/Javscript/HTML/CSS'
+              path='https://github.com/BrianBFarias/linker'
+            />
+            <CardItem
               src='images/Pakudex.jpg'
               text='Pakudex: Pokemon holder'
               label='Java'

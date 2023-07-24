@@ -31,7 +31,7 @@ function Cards() {
           <ul className='cards__items'>
             <CardItem
               src='images/network.png'
-              text='Linker: networking site'
+              text='Linker: Networking site'
               label='Python/Javscript/HTML/CSS'
               path='https://github.com/BrianBFarias/linker'
             />

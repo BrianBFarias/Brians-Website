@@ -6,11 +6,6 @@ import ContactUs from './contactForm.js';
 
 function Footer() {
   const isMobile = /Mobi/.test(navigator.userAgent);
-  var string="Thanks for checking out my website!";
-
-  if(window.innerWidth<=1000){
-    string= null;
-  }
 
   if(isMobile){
     return (
@@ -27,7 +22,6 @@ function Footer() {
         </div>
         <section class='mobile-social-media'>
           <div class='mobile-media-wrap'>
-            <small class='mobile-footer-notes'>{string}</small>
             <div class='mobile-social-icons'>
               <Link
                 class='mobile-icon-link instagram'
@@ -66,7 +60,6 @@ function Footer() {
       </div>
       <section class='social-media'>
         <div class='social-media-wrap'>
-          <small class='website-rights'>{string}</small>
           <div class='social-icons'>
             <Link
               class='social-icon-link instagram'

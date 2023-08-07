@@ -1,0 +1,35 @@
+#live-proj{
+    justify-content: center;
+    text-align: center;
+    height: fit-content;
+    background-color: #e2e5ed;
+    padding: 30px;
+    padding-block: 50px;
+}
+
+#live-proj h2{
+    color: black;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 20px;
+}
+
+.cards_container {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    width: 350px;
+    margin: 0 auto;
+  }
+
+.cards_container .cards__item__link{
+    box-shadow: 0 6px 20px rgba(151, 38, 38, 0.42);
+    -webkit-filter: drop-shadow(0 6px 20px rgba(255, 56, 56, 0.017));
+    filter: drop-shadow(0 6px 20px rgba(255, 56, 56, 0.017));
+}
+.cards_container .cards__item__img{
+    object-fit: contain;
+    background-color: #913333;
+    padding-block: 50px;
+
+}

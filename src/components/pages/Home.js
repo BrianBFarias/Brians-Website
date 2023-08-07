@@ -4,6 +4,7 @@ import MainSection from '../MainSection';
 import Cards from '../Cards';
 import Footer from '../Footer';
 import AboutMe from './Intro';
+import Projects from './Projects';
 
 function Home() {
   return (
@@ -11,6 +12,7 @@ function Home() {
       <MainSection />
       <Cards />
       <AboutMe/>
+      <Projects/>
       <Footer/>
     </>
   );

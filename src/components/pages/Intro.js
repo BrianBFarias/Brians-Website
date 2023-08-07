@@ -38,39 +38,39 @@ function AboutMe() {
         <div className="typewriter-container">
         <h3>My skills</h3>
         </div>
+        <div className='skills-container'>
         <div id='skills'>
-          <div>
+          <ul className='scroll'>
             <li className='code'>C++</li>
-            <hr />
             <li className='code'>SQL</li>
-            <hr />
             <li className='code'>HTML</li>
-            <hr />
             <li className='code'>CSS</li>
-            <hr />
             <li className='code'>Javascript</li>
-            <hr />
             <li className='code'>Java</li>
-            <hr />
             <li className='code'>Python</li>
-            <hr />
             <li className='code'>Arm Assembly</li>
-          </div>
-
-          <div>
             <li className='other'>Django</li>
-            <hr />
             <li className='other'>React</li>
-            <hr />
             <li className='other'>SFML</li>
-          </div>
-
-          <div>
             <li className='other1'>DOM</li>
-            <hr />
             <li className='other1'>OOP</li>
-          </div>
-
+          </ul>
+          <ul className='scroll2'>
+            <li className='code'>C++</li>
+            <li className='code'>SQL</li>
+            <li className='code'>HTML</li>
+            <li className='code'>CSS</li>
+            <li className='code'>Javascript</li>
+            <li className='code'>Java</li>
+            <li className='code'>Python</li>
+            <li className='code'>Arm Assembly</li>
+            <li className='other'>Django</li>
+            <li className='other'>React</li>
+            <li className='other'>SFML</li>
+            <li className='other1'>DOM</li>
+            <li className='other1'>OOP</li>
+          </ul>
+        </div>
         </div>
       </div>
       

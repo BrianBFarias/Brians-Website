@@ -97,11 +97,12 @@ h3{
     left: 0%;
   }
   to {
-    left: -150%;
+    left: -122%;
   }
 }
 
 #skills .scroll{
+  align-items: center;
   width: inherit;
   height: inherit;
   position: absolute;
@@ -112,13 +113,14 @@ h3{
 }
 @keyframes secondary {
   from {
-    left: 150%;
+    left: 122%;
   }
   to {
     left: 0%;
   }
 }
 #skills .scroll2{
+  align-items: center;
   width: inherit;
   height: inherit;
   position: absolute;
@@ -128,8 +130,10 @@ h3{
   animation: secondary 10s linear infinite;
 }
 
-#skills .scroll li, #skills .scroll2 li{
-  margin: 10px;
+#skills .scroll img, #skills .scroll2 img{
+  margin-inline: 20px;
+  height: 100px;
+  justify-content: center;
 }
 
 #skills-mobile{

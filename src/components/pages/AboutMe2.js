@@ -2,7 +2,6 @@ import React from 'react';
 import './AboutMe2.css';
 
 function AboutMe2() {
-  const isMobile = /Mobi/.test(navigator.userAgent);
   document.addEventListener('DOMContentLoaded', function(){
     try {
         document.querySelector('.Me-title').style.animationPlayState = 'paused';
@@ -29,17 +28,9 @@ function AboutMe2() {
             tile2s[i].style.animationPlayState = 'running';
         }
     }
-    else{
-        document.querySelector('.Me-title').style.animationPlayState = 'paused';
-        for(var i=0; i<tile2s.length; i++){
-            tile1s[i].style.animationPlayState = 'paused';
-            tile2s[i].style.animationPlayState = 'paused';
-        }
-        }
   }
 
   return (
-    
     <div className="ABMC">
         <h1 className='Me-title'>A little About Me</h1>
         <div id='tile1'>

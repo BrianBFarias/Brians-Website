@@ -20,7 +20,7 @@ function AboutMe2() {
     // console.log(window.scrollY);
     var tile1s = document.querySelectorAll('#tile1');
     var tile2s = document.querySelectorAll('#tile2');
-    if (window.innerHeight + window.scrollY >= document.body.offsetHeight-700) {
+    if (window.innerHeight + window.scrollY >= document.body.offsetHeight-750) {
         // Change color to green
         document.querySelector('.Me-title').style.animationPlayState = 'running';
         for(var i=0; i<tile2s.length; i++){

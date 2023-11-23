@@ -1,5 +1,6 @@
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
   "main.css": "/static/css/main.bc9c4aff.chunk.css",
   "main.js": "/static/js/main.7d56424f.chunk.js",
   "main.js.map": "/static/js/main.7d56424f.chunk.js.map",
@@ -10,6 +11,18 @@
   "static/css/main.bc9c4aff.chunk.css.map": "/static/css/main.bc9c4aff.chunk.css.map",
   "index.html": "/index.html",
   "precache-manifest.ffe5c3dda5d690cc413c493da49456cd.js": "/precache-manifest.ffe5c3dda5d690cc413c493da49456cd.js",
+=======
+  "main.css": "/static/css/main.03fb49b2.chunk.css",
+  "main.js": "/static/js/main.8dbe997d.chunk.js",
+  "main.js.map": "/static/js/main.8dbe997d.chunk.js.map",
+  "static/js/1.469d89ef.chunk.js": "/static/js/1.469d89ef.chunk.js",
+  "static/js/1.469d89ef.chunk.js.map": "/static/js/1.469d89ef.chunk.js.map",
+  "runtime~main.js": "/static/js/runtime~main.229c360f.js",
+  "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
+  "static/css/main.03fb49b2.chunk.css.map": "/static/css/main.03fb49b2.chunk.css.map",
+  "index.html": "/index.html",
+  "precache-manifest.d791d8e3cc0d4eafdef5d4caf97b2415.js": "/precache-manifest.d791d8e3cc0d4eafdef5d4caf97b2415.js",
+>>>>>>> parent of a1e7f118 (opacity bug)
 =======
   "main.css": "/static/css/main.03fb49b2.chunk.css",
   "main.js": "/static/js/main.8dbe997d.chunk.js",

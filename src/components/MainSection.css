@@ -1,11 +1,8 @@
-.WebVideo {
-    object-fit:cover;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    z-index: -1;
+:root {
+    --size: 4px;
   }
-  
+
+
   .main-container {
     height: 60vh;
     width: 100%;
@@ -31,7 +28,7 @@
       margin-bottom: 14vh;
     }
     /* Only apply this rule for screens wider than 768px */
-    @keyframes fade-in {
+    keyframes fade-in {
       from { opacity: 0; }
       to { opacity: 0.6; }
     }
@@ -40,96 +37,102 @@
     }
   
   }
-  
-  @media (max-width: 767px) {
-    .welcome-web {
-      opacity: 0;
-      font-size: 90px;
-      animation-name: fade-in;
-      color:rgba(255, 193, 35, 1);
-      animation-delay: 0.3s;
-      animation-duration: 4.5s;
-      animation-fill-mode: forwards;
-      font-weight: bold;
-      text-align: center;
-      margin-top: 5vh;
-      min-height: 10vh;
-      margin-bottom: 14vh;
-    }
-    /* Only apply this rule for screens narrower than 768px */
-    @keyframes fade-in {
-      from { opacity: 0; }
-      to { opacity: 0.65; }
-    }
-    .main-btns{
-      margin-top: -100px;
-    }
-  
+
+#name{
+    position: relative;
+    margin: auto;
+    top: 17vh;
+    font-size: 6vw;
+    color: rgb(172, 172, 172);
+    z-index: 1;
+    box-shadow: 0px 0px 0px 100px black;
+    padding: 0;
   }
 
-  @media (min-width:1400px){
-    .welcome-web {
-      opacity: 0;
-      font-size: 150px;
-      animation-name: fade-in;
-      color:rgba(255, 193, 35, 1);
-      animation-delay: 0.3s;
-      animation-duration: 4.5s;
-      animation-fill-mode: forwards;
-      font-weight: bold;
-      text-align: center;
-      margin-top: 10%;
-      min-height: 10vh;
-      margin-bottom: 14vh;
+ div #star-field {
+    width: 100vw;
+    height: 48vh;
+    background: #000;
+    position: relative;
+    overflow: hidden;
+    
+    .star {
+    z-index: 0;
+    transform:rotate(-45deg) skewX(22.5deg) skewY(22.5deg);
+      position: absolute;
+      background: #fff;
+      
+      &.white {
+        background: #fff;
+        box-shadow: 0 0 15px #fff;
+      }
+      
+      &.yellow {
+        background: #8c892e;
+        box-shadow: 0 0 15px #8c892e;
+      }
+      
+      &.blue {
+        background: #262692;
+        box-shadow: 0 0 15px #262692;
+      }
+      
+      &.red {
+        background: #9f2a2a;
+        box-shadow: 0 0 15px #9f2a2a;
+      }
     }
-    .main-btns{
-      margin-top: 10%;
-    }
-  
-  }
 
+    .star.near {
+        z-index:2;
+        transform:rotate(-45deg) skewX(22.5deg) skewY(22.5deg);
+        width: calc(var(--size) + 2px);
+        height: calc(var(--size) + 2px);
 
+        &.white {
+            background: #fff;
+            box-shadow: 0 0 15px #fff;
+          }
+          
+          &.yellow {
+            background: #8c892e;
+            box-shadow: 0 0 15px #8c892e;
+          }
+          
+          &.blue {
+            background: #262692;
+            box-shadow: 0 0 15px #262692;
+          }
+          
+          &.red {
+            background: #9f2a2a;
+            box-shadow: 0 0 15px #9f2a2a;
+          }
+      }
+      
+    .star.far {
+        z-index: 0;
+        width: calc(var(--size) - 1px);
+        height: calc(var(--size) - 1px);
 
-  /*----------------Mobile-------------*/
-  .main-mobile-container {
-    height: auto;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0);
-    background-position: center top;
-    position:relative;
-  }
-  .welcome-mobile {
-    opacity: 0;
-    font-size: 52px;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    animation-name: fade-in;
-    color:rgb(233, 234, 255);
-    animation-delay: 0.5s;
-    animation-duration: 3s;
-    animation-fill-mode: forwards;
-    font-weight:800;
-    text-align: center;
-    margin-top: 28%;
-    margin-bottom: 40%;
-    width:100%;
-  }
-  
-  .MobileVideo {
-    object-fit: contain;
-    width: 100%;
-    position: absolute;
-    z-index: -1;
-  }
-  
-  .main-mobile-container > p{
-    margin-top: 8px;
-    color: white;
-    font-size: 32px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  }
-  .main-btns{
-    margin-bottom: 18%;
+        &.white {
+            background: #fff;
+            box-shadow: 0 0 15px #fff;
+          }
+          
+          &.yellow {
+            background: #8c892e;
+            box-shadow: 0 0 15px #8c892e;
+          }
+          
+          &.blue {
+            background: #262692;
+            box-shadow: 0 0 15px #262692;
+          }
+          
+          &.red {
+            background: #9f2a2a;
+            box-shadow: 0 0 15px #9f2a2a;
+          }
+      }
   }

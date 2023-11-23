@@ -14,7 +14,11 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
+<<<<<<< HEAD
   "/precache-manifest.ffe5c3dda5d690cc413c493da49456cd.js"
+=======
+  "/precache-manifest.d791d8e3cc0d4eafdef5d4caf97b2415.js"
+>>>>>>> parent of a1e7f118 (opacity bug)
 );
 
 workbox.clientsClaim();

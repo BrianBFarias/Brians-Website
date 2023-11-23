@@ -1,5 +1,5 @@
 :root {
-    --size: 4px;
+    --size: 15px;
   }
 
 
@@ -42,97 +42,46 @@
     position: relative;
     margin: auto;
     top: 17vh;
-    font-size: 6vw;
-    color: rgb(172, 172, 172);
+    font-size: 10vh;
+    color: rgb(202, 202, 202);
     z-index: 1;
-    box-shadow: 0px 0px 0px 100px black;
-    padding: 0;
   }
 
  div #star-field {
+    margin-top:-20px ;
     width: 100vw;
-    height: 48vh;
+    height: 50vh;
     background: #000;
     position: relative;
     overflow: hidden;
     
     .star {
     z-index: 0;
-    transform:rotate(-45deg) skewX(22.5deg) skewY(22.5deg);
-      position: absolute;
-      background: #fff;
+    border-radius: 5px;
+    width: calc(var(--size));
+    height:calc(var(--size));
+    position: absolute;
+    background: #262692;
+    box-shadow: 0 0 15px #262692;
+    border: 2px solid rgb(34, 109, 136);
       
       &.white {
-        background: #fff;
-        box-shadow: 0 0 15px #fff;
-      }
-      
-      &.yellow {
-        background: #8c892e;
-        box-shadow: 0 0 15px #8c892e;
-      }
-      
-      &.blue {
-        background: #262692;
-        box-shadow: 0 0 15px #262692;
-      }
-      
-      &.red {
-        background: #9f2a2a;
-        box-shadow: 0 0 15px #9f2a2a;
+        background: #f2f2f2;
+        box-shadow: 0 0 15px #f1f1f1;
       }
     }
 
     .star.near {
         z-index:2;
-        transform:rotate(-45deg) skewX(22.5deg) skewY(22.5deg);
-        width: calc(var(--size) + 2px);
-        height: calc(var(--size) + 2px);
-
-        &.white {
-            background: #fff;
-            box-shadow: 0 0 15px #fff;
-          }
-          
-          &.yellow {
-            background: #8c892e;
-            box-shadow: 0 0 15px #8c892e;
-          }
-          
-          &.blue {
-            background: #262692;
-            box-shadow: 0 0 15px #262692;
-          }
-          
-          &.red {
-            background: #9f2a2a;
-            box-shadow: 0 0 15px #9f2a2a;
-          }
+        border-radius: 7px;
+        width: calc(var(--size) + 8px);
+        height: calc(var(--size) + 8px);
       }
       
     .star.far {
+      border-radius: 2px;
         z-index: 0;
-        width: calc(var(--size) - 1px);
-        height: calc(var(--size) - 1px);
-
-        &.white {
-            background: #fff;
-            box-shadow: 0 0 15px #fff;
-          }
-          
-          &.yellow {
-            background: #8c892e;
-            box-shadow: 0 0 15px #8c892e;
-          }
-          
-          &.blue {
-            background: #262692;
-            box-shadow: 0 0 15px #262692;
-          }
-          
-          &.red {
-            background: #9f2a2a;
-            box-shadow: 0 0 15px #9f2a2a;
-          }
+        width: calc(var(--size) - 6px);
+        height: calc(var(--size) - 6px);
       }
   }

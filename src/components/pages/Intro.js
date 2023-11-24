@@ -13,7 +13,7 @@ function AboutMe() {
             <h3>My Experience/Skills</h3>
           </div>
           <div id='skills-mobile'>
-            <h2 className='title'>Frame-Works</h2>
+            <h2 className='title'>Frameworks</h2>
             <div className='frame-works'>
               <li className='other'>Django</li>
               <li className='other'>React</li>

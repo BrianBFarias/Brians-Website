@@ -10,7 +10,7 @@ function AboutMe() {
       <div className="about-me-container">
         <div className="mobile-container">
           <div className="typewriter-container">
-            <h3>My Experience/Skills</h3>
+            <h3>Experience/Skills</h3>
           </div>
           <div id='skills-mobile'>
             <h2 className='title'>Frameworks</h2>
@@ -46,7 +46,7 @@ function AboutMe() {
     <div className="about-me-container">
       <div className="info-container">
         <div className="typewriter-container">
-        <h3>My skills</h3>
+        <h3>Experience/Skills</h3>
         </div>
         <div className='skills-container'>
         <div id='skills'>

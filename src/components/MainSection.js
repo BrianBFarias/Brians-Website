@@ -10,7 +10,7 @@ function MainSection() {
     const starFieldHeight = window.innerHeight * 0.55;
     var app = document.getElementById('name');
 
-    const noOfStars = starFieldWidth < 960 ? 50 : 200;
+    const noOfStars = starFieldWidth < 960 ? 70 : 200;
 
     addStars(starField, starFieldWidth, starFieldHeight, noOfStars);
     animateStars(starField, starFieldWidth, -1);

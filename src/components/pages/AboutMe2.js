@@ -16,20 +16,7 @@ function AboutMe2() {
         tile2s[i].style.animationPlayState = 'paused';
     }
   })
-  window.onscroll = () => {
-    // console.log(window.scrollY);
-    var tile1s = document.querySelectorAll('#tile1');
-    var tile2s = document.querySelectorAll('#tile2');
-    if (window.innerHeight + window.scrollY >= document.body.offsetHeight-750) {
-        // Change color to green
-        document.querySelector('.Me-title').style.animationPlayState = 'running';
-        for(var i=0; i<tile2s.length; i++){
-            tile1s[i].style.animationPlayState = 'running';
-            tile2s[i].style.animationPlayState = 'running';
-        }
-    }
-  }
-
+  
   return (
     <div className="ABMC">
         <h1 className='Me-title'>A little About Me</h1>

@@ -6,24 +6,34 @@ import Typewriter from 'typewriter-effect';
 function MainSection() {
   useEffect(() => {
     const starField = document.getElementById('star-field');
-    const starFieldWidth = window.innerWidth;
+    const starFieldWidth = window.innerWidth+10;
     const starFieldHeight = window.innerHeight * 0.55;
+    var app = document.getElementById('name');
 
-    const noOfStars = starFieldWidth < 960 ? 100 : 250;
+    // var typewriter = new Typewriter(app, {
+    //   loop: true
+    // });
+    // typewriter.typeString('Hello World!')
+    // .pauseFor(2500)
+    // .deleteAll()
+    // .typeString('Strings can be removed')
+    // .pauseFor(2500)
+    // .deleteChars(7)
+    // .typeString('<strong>altered!</strong>')
+    // .pauseFor(2500)
+    // .start();
+
+
+    const noOfStars = starFieldWidth < 960 ? 50 : 200;
 
     addStars(starField, starFieldWidth, starFieldHeight, noOfStars);
-    animateStars(starField, starFieldWidth, 5);
-
-    // Clean up function
-    return () => {
-      // Any necessary cleanup code
-    };
+    animateStars(starField, starFieldWidth, -1);
   }, []);
 
   function addStars(starField, starFieldWidth, starFieldHeight, noOfStars) {
     const fragment = document.createDocumentFragment();
 
-    for (let i = 0; i < noOfStars; i++) {
+    for (let i = 0; i < noOfStars; i+=3) {
       const star = document.createElement('div');
       star.className = 'star';
       const topOffset = Math.floor((Math.random() * starFieldHeight) + 1);
@@ -41,11 +51,11 @@ function MainSection() {
     const stars = starField.childNodes;
 
     function getBobbingOffset(index) {
-      return Math.sin(index) / 10;
+      return Math.sin(index);
     }
 
     function updateStarPosition(star, i) {
-      stars[i].className = 'star ' + getStarColor(i) + ' ' + getStarDistance(i);
+      star.className = 'star ' + getStarColor(i) + ' ' + getStarDistance(i);
 
       const currentLeft = parseInt(star.style.left, 10);
       const currentTop = parseInt(star.style.top, 10);
@@ -57,7 +67,7 @@ function MainSection() {
       const topOffset = currentTop + bobbingOffset;
 
       if (topOffset < 0) {
-        star.style.top = window.innerHeight * 0.55 + Math.random() * 20 + 'px';
+        star.style.top = window.innerHeight + Math.random() * 20 + 'px';
         star.style.left = Math.floor(Math.random() * starFieldWidth) + 'px';
       } else {
         star.style.left = leftDiff + 'px';
@@ -65,14 +75,13 @@ function MainSection() {
       }
     }
 
-    function animate() {
+    function animate(){
       for (let i = 1; i < stars.length; i++) {
         updateStarPosition(stars[i], i);
       }
 
       requestAnimationFrame(animate);
     }
-
     animate();
   }
 
@@ -112,15 +121,6 @@ function MainSection() {
   return (
     <div id='star-field'>
       <h1 id="name">
-        <Typewriter
-          options={{
-            strings: ["Hello, I'm Brian"],
-            autoStart: true,
-            loop: false,
-            delay: 100,
-            pauseFor: 999999
-          }}
-        />
       </h1>
     </div>
   );

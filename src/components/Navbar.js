@@ -24,9 +24,13 @@ function Navbar() {
 
   window.addEventListener('resize', showButton);
 
+  window.onscroll = () => {
+    console.log(window.innerHeight + window.scrollY);
+  };
+
   return (
     <>
-      <nav className='navbar'>
+      <nav id='navbar'>
         <div className='navbar-container'>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
             BF

@@ -10,20 +10,6 @@ function MainSection() {
     const starFieldHeight = window.innerHeight * 0.55;
     var app = document.getElementById('name');
 
-    // var typewriter = new Typewriter(app, {
-    //   loop: true
-    // });
-    // typewriter.typeString('Hello World!')
-    // .pauseFor(2500)
-    // .deleteAll()
-    // .typeString('Strings can be removed')
-    // .pauseFor(2500)
-    // .deleteChars(7)
-    // .typeString('<strong>altered!</strong>')
-    // .pauseFor(2500)
-    // .start();
-
-
     const noOfStars = starFieldWidth < 960 ? 50 : 200;
 
     addStars(starField, starFieldWidth, starFieldHeight, noOfStars);
@@ -121,6 +107,7 @@ function MainSection() {
   return (
     <div id='star-field'>
       <h1 id="name">
+        Hello I'm Brian
       </h1>
     </div>
   );

@@ -48,12 +48,12 @@ function onScroll(){
   
       // ------progress bar----
   
-      var height = window.scrollY+400;
+      var height = window.scrollY;
   
-      const part1 = cards.offsetHeight;
-      const part2 = part1+skills.offsetHeight;
-      const part3 = part2+cards2.offsetHeight;
-      const part4 = part3+aboutMe.offsetHeight
+      const part1 = navBar.offsetHeight;
+      const part2 = part1 + skills.offsetHeight + cards.offsetHeight;
+      const part3 = part2 + cards2.offsetHeight;
+      const part4 = part3 + aboutMe.offsetHeight
       
       if(height > part1 && height < part2){
         console.log("entered");

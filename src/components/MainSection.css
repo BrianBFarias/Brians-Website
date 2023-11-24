@@ -41,8 +41,8 @@
 #name{
     position: relative;
     margin: auto;
-    top: 17vh;
-    font-size: 10vh;
+    top: 12vh;
+    font-size: 9vh;
     color: rgb(202, 202, 202);
     z-index: 1;
   }

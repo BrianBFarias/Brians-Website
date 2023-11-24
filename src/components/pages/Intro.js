@@ -8,25 +8,35 @@ function AboutMe() {
   if(isMobile){
     return (
       <div className="about-me-container">
-        <div className="info-container">
+        <div className="mobile-container">
           <div className="typewriter-container">
-            <h3>My skills</h3>
+            <h3>My Experience/Skills</h3>
           </div>
           <div id='skills-mobile'>
-          <li className='code'>C++</li>
-          <li className='code'>SQL</li>
-          <li className='code'>HTML</li>
-          <li className='code'>CSS</li>
-          <li className='code'>Javascript</li>
-          <li className='code'>Java</li>
-          <li className='code'>Python</li>
-          <li className='code'>Arm Assembly</li>
-          <li className='other'>Django</li>
-          <li className='other'>React</li>
-          <li className='other'>SFML</li>
-          <li className='other1'>DOM</li>
-          <li className='other1'>OOP</li>
-        </div>
+            <h2 className='title'>Frame-Works</h2>
+            <div className='frame-works'>
+              <li className='other'>Django</li>
+              <li className='other'>React</li>
+              <li className='other'>ReactJs</li>
+              <li className='other'>NodeJs</li>
+              <li className='other'>Strapi</li>
+          </div>
+          </div>
+          <div id='skills-mobile'>
+            <h2 className='title'>Languages</h2>
+            <div className='frame-works'>
+              <li className='code'>C++</li>
+              <li className='code'>HTML</li>
+              <li className='code'>Java</li>
+              <li className='code'>Javascript</li>
+              <li className='code'>Python</li>
+              <li className='code'>CSS</li>
+              <li className='code'>C</li>
+              <li className='code'>Arm Assembly</li>
+              <li className='code'>SQL</li>
+              <li className='code'>MATLAB</li>
+            </div>
+          </div>
         </div>
       </div>
     );

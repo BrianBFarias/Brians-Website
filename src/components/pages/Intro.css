@@ -1,5 +1,6 @@
+
 .about-me-container {
-  background-color: rgb(236, 243, 253);
+  background-color: white;
   display: grid;
   padding-bottom: 30px;
 }
@@ -135,16 +136,6 @@ h3{
   height: 100px;
   justify-content: center;
 }
-
-#skills-mobile{
-  display: grid;
-  justify-content: center;
-  grid-template-columns: repeat( 12, minmax(100px, 1fr) );
-  grid-template-columns: repeat( auto-fit, minmax(100px, 1fr) );
-  margin-inline: 20px;
-  gap: 10px;
-}
-
 hr{
   height: 50%;
   border: 1px solid black;
@@ -166,25 +157,42 @@ hr{
   font-size: 40px;
 }
 
-#skills-mobile .code, #skills-mobile .other, #skills-mobile .other1{
-  font-size: 22px;
-}
-
-.other{
-  color: rgb(9, 87, 13);
-}
-.code{
-  color: rgb(132, 115, 9);
-}
-.other1{
-  color: rgb(9, 20, 69);
-}
-
 .typewriter-container {
-  font-size: 50px;
+  font-size: 33px;
   width: 100%;
   margin: auto;
   text-align: center;
   Color:rgb(22, 28, 85);
   font-weight: bold;
+}
+
+.frame-works{
+  display: flex;
+  flex-flow: row wrap;
+  width: fit-content;
+  align-items: center;
+  justify-self: center;
+  gap: 5px;
+  padding-inline: 15px;
+}
+
+.frame-works li{
+  width: fit-content;
+  background-color: rgb(194, 223, 245);
+  padding: 15px;
+  border-radius: 30px;
+}
+
+#skills-mobile{
+  margin-bottom: 20px;
+  .title{
+    margin-bottom: 10px;
+    display: flex;
+    margin-inline: auto;
+    justify-content: center;
+  }
+}
+
+.mobile-container{
+  display: grid;
 }

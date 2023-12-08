@@ -2,7 +2,7 @@
 .about-me-container {
   background-color: whitesmoke;
   display: grid;
-  padding-bottom: 30px;
+  padding-bottom: 5vh;
 }
 .about-me-container div{
   height: fit-content;

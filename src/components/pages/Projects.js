@@ -27,17 +27,18 @@ function Projects() {
   }
   return (
     <section id='live-proj'>
+      <div className='title-box'>
         <h2>Live Projects</h2>
-        <div>
-
-        </div>
-        <div className='cards_container'>
-            <CardItem
-              src='images/SR.png'
-              text='(Beta) Hot Sauce rating site'
-              label='Python/JS/HTML/CSS'
-              path='https://saucer-roster.up.railway.app/'
-            />
+      </div>
+      <div className='info-mat'>
+      <div className='cards_container'>
+          <CardItem
+            src='images/SR.png'
+            text='(Beta) Hot Sauce rating site'
+            label='Python/JS/HTML/CSS'
+            path='https://saucer-roster.up.railway.app/'
+          />
+      </div>
       </div>
     </section>
   );

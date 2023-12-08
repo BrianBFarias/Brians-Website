@@ -26,9 +26,6 @@ function onScroll(){
   
       if (window.innerHeight + window.scrollY >= document.body.offsetHeight-750) {
         // Change color to green
-        document.querySelector('.Me-title').style.animationPlayState = 'running';
-        document.querySelector('.bar').style.animationPlayState = 'running';
-
         for(var i=0; i<tile2s.length; i++){
             tile2s[i].style.animationPlayState = 'running';
         }

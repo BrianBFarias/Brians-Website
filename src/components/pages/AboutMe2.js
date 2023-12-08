@@ -3,13 +3,6 @@ import './AboutMe2.css';
 
 function AboutMe2() {
   document.addEventListener('DOMContentLoaded', function(){
-    try {
-        document.querySelector('.Me-title').style.animationPlayState = 'paused';
-        document.querySelector('.bar').style.animationPlayState = 'paused';
-
-    } catch (error) {
-        return true;
-    }
 
     var tile1s = document.querySelectorAll('#tile1');
     var tile2s = document.querySelectorAll('#tile2');
@@ -25,21 +18,22 @@ function AboutMe2() {
   
   return (
     <div className="ABMC">
-        <div className='Me-title'>
-            <h1>Experience</h1>
-            <div className='bar'></div>
+        <div className="info-mat">
+            <div id='tile1'>
+                <h2>Full-Stack Developer for The Agency at UF</h2>
+            </div>
+            <div id='tile2'>
+                <h2>Scrum Master for CaSMM, Cloud-Based Programming Interface</h2>
+            </div>
+            <div id='tile1'>
+                <h2> IT Help Desk Technician at RAS LLC</h2>
+            </div>
+            <div id='tile2'>
+                <h2>Harvard's CS50 Web Programming with Python</h2>
+            </div>
         </div>
-        <div id='tile1'>
-            <h2>Full-Stack Developer for The Agency at UF</h2>
-        </div>
-        <div id='tile2'>
-            <h2>Scrum Master for CaSMM, Cloud-Based Programming Interface</h2>
-        </div>
-        <div id='tile1'>
-            <h2> IT Help Desk Technician at RAS LLC</h2>
-        </div>
-        <div id='tile2'>
-            <h2>Harvard's CS50 Web Programming with Python</h2>
+        <div className='title-box'>
+            <h2>Experience</h2>
         </div>
     </div>
   );

@@ -59,6 +59,7 @@
   width: 100vw;
   padding-inline: 2vw;
   transition:1s;
+  background-color: transparent;
 }
 
 .progress-bar {

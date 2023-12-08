@@ -25,6 +25,7 @@
     display: grid;
     grid-template-columns: auto 1fr;
     text-align: center;
+    background: #e2e5ed;
 }
 
 .ABMC .info-mat{
@@ -35,7 +36,6 @@
     padding: auto;
     justify-content: center;
     gap:25px;
-    background: #e2e5ed;
 
     & div{
         width:fit-content;
@@ -88,12 +88,13 @@
     color: white;
 }
 
-.title-box{
+.title-box1{
     display: flex;
     background-color: black;
     height: 100%;
     width: 50vw;
-    min-height: 35vh;
+    min-height: 40vh;
+    border-top-left-radius: 100px;
 
     & h2{
         background-color: black;

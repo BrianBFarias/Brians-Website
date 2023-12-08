@@ -32,7 +32,7 @@ function AboutMe2() {
                 <h2>Harvard's CS50 Web Programming with Python</h2>
             </div>
         </div>
-        <div className='title-box'>
+        <div className='title-box1'>
             <h2>Experience</h2>
         </div>
     </div>

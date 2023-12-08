@@ -2,14 +2,16 @@
     display: grid;
     grid-template-columns: auto 1fr;
     width: 100vw;
+    background: #e2e5ed;
 }
 
-.title-box{
+#live-proj .title-box{
     display: flex;
     background-color: black;
     height: 100%;
     width: 50vw;
-    min-height: 35vh;
+    min-height: 40vh;
+    border-bottom-right-radius: 100px;
 }
 
 #live-proj h2{

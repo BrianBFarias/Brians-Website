@@ -2,14 +2,21 @@
     justify-content: center;
     text-align: center;
     height: fit-content;
-    background-color: #e2e5ed;
+    background-image: linear-gradient(whitesmoke, 30%,#cbcbcb);
     padding: 30px;
     padding-block: 50px;
+    padding-bottom:10vh;
 }
 
 #live-proj h2{
-    color: black;
-    font-size: 30px;
+    color: rgb(53, 53, 53);
+    text-shadow: 0px 0px 22px white;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.545);
+    padding-bottom: 3px;
+    padding-inline: 10vw;
+    margin-inline: auto;
+    width: fit-content;
+    font-size: 40px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin-bottom: 20px;
 }

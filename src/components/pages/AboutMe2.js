@@ -5,32 +5,41 @@ function AboutMe2() {
   document.addEventListener('DOMContentLoaded', function(){
     try {
         document.querySelector('.Me-title').style.animationPlayState = 'paused';
+        document.querySelector('.bar').style.animationPlayState = 'paused';
+
     } catch (error) {
         return true;
     }
+
     var tile1s = document.querySelectorAll('#tile1');
     var tile2s = document.querySelectorAll('#tile2');
 
-    for(var i=0; i<tile2s.length; i++){
+    for(var i=0; i<tile1s.length; i++){
         tile1s[i].style.animationPlayState = 'paused';
+    }
+
+    for(var i=0; i<tile2s.length; i++){
         tile2s[i].style.animationPlayState = 'paused';
     }
   })
   
   return (
     <div className="ABMC">
-        <h1 className='Me-title'>A little About Me</h1>
-        <div id='tile1'>
-            <h2>Class of 2025 at the University of Florida</h2>
-        </div>
-        <div id='tile2'>
-            <h2>Studying a Bachelors in Computer Science </h2>
+        <div className='Me-title'>
+            <h1>Experience</h1>
+            <div className='bar'></div>
         </div>
         <div id='tile1'>
-            <h2> Upper Division GPA: <strong>3.61</strong></h2>
+            <h2>Full-Stack Developer for The Agency at UF</h2>
         </div>
         <div id='tile2'>
-            <h2> I <i class="fa-regular fa-heart"></i> Working out, Software Engineering, and dogs</h2>
+            <h2>Scrum Master for CaSMM, Cloud-Based Programming Interface</h2>
+        </div>
+        <div id='tile1'>
+            <h2> IT Help Desk Technician at RAS LLC</h2>
+        </div>
+        <div id='tile2'>
+            <h2>Harvard's CS50 Web Programming with Python</h2>
         </div>
     </div>
   );

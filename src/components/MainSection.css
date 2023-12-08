@@ -40,9 +40,10 @@
 
 #name{
     position: relative;
-    margin: auto;
     top: 12vh;
+    text-align: center;
     font-size: 9vh;
+    margin: auto;
     color: rgb(202, 202, 202);
     z-index: 1;
   }

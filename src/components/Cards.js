@@ -5,13 +5,13 @@ import CardItem from './CardItem';
 function Cards() {
   return (
     <div className='cards'>
-      <h1>Projects I've worked on</h1>
+      <h1> <div className='bar2' ></div> <p>Projects I've worked on</p> <div className='bar2'></div> </h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
               src='images/AVL.jpg'
-              text='UF student info AVL tree'
+              text='UF Student info AVL tree'
               label='C++'
               path='https://github.com/BrianBFarias/Gator-AVL-Tree'
             />
@@ -23,7 +23,7 @@ function Cards() {
             />
             <CardItem
               src='images/Auction.png'
-              text='ecommerce website'
+              text='Ecommerce Website'
               label='HTML/CSS/Python/SQL'
               path='https://github.com/BrianBFarias/ecommerce-website.git'
             />

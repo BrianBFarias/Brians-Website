@@ -3,6 +3,7 @@
     grid-template-columns: auto 1fr;
     width: 100vw;
     background: #e2e5ed;
+    padding-bottom: 30px;
 }
 
 #live-proj .title-box{
@@ -15,13 +16,12 @@
 }
 
 #live-proj h2{
-    background-color: black;
     padding-block: 20px;
     color: white;
     text-align: center;
     justify-content: center;
     margin: auto;
-    font-size: 6em;
+    font-size: 5vw;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -31,10 +31,11 @@
 }
 
 .cards_container {
+    padding-top: 10px;
     display: flex;
     flex-flow: column;
     align-items: center;
-    width: 30vw;
+    width: 50vw;
     margin: auto;
   }
 

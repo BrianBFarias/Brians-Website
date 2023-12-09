@@ -5,6 +5,7 @@ import Cards from '../Cards';
 import Footer from '../Footer';
 import AboutMe from './Intro';
 import AboutMe2 from './AboutMe2';
+import AboutMe3 from './AboutMe3';
 import Projects from './Projects';
 
 function Home() {
@@ -15,6 +16,7 @@ function Home() {
       <AboutMe/>
       <Projects/>
       <AboutMe2/>
+      <AboutMe3/>
       <Footer/>
     </>
   );

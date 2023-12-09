@@ -4,15 +4,32 @@
     width: 100vw;
     background: #e2e5ed;
     padding-bottom: 30px;
-}
 
-#live-proj .title-box{
-    display: flex;
-    background-color: black;
-    height: 100%;
-    width: 50vw;
-    min-height: 40vh;
-    border-bottom-right-radius: 100px;
+    & .title-box{
+        display: flex;
+        position: relative; 
+        background-color: black;
+        height: 100%;
+        width: 50vw;
+        min-height: 40vh;
+        border-bottom-right-radius: 100px;
+    }
+
+
+    /* Bottom curve to title containers */
+
+    & .title-box::before {
+        content: "";
+        position: absolute;
+        
+        background-color: transparent;
+        bottom: -200px;
+        height: 200px;
+        width: 20vw;
+        border-top-left-radius: 50% 100px;
+        box-shadow: 0 -100px 0 0 black;
+     }
+    
 }
 
 #live-proj h2{

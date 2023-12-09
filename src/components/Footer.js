@@ -10,14 +10,6 @@ function Footer() {
   if(isMobile){
     return (
       <div className='mobile-footer-container'>
-        <section className='mobile-footer-subscription'>
-          <p className='mobile-heading'>
-            Contact me
-          </p>
-          <div className="mobile-container">
-            <ContactUs/>
-          </div>
-        </section>
         <div class='mobile-footer-links'>
         </div>
         <section class='mobile-social-media'>
@@ -48,16 +40,6 @@ function Footer() {
   }
   return (
     <div className='footer-container'>
-      <section className='footer-subscription'>
-        <p className='footer-subscription-heading'>
-          Reach out to me
-        </p>
-        <div className="container">
-          <ContactUs/>
-        </div>
-      </section>
-      <div class='footer-links'>
-      </div>
       <section class='social-media'>
         <div class='social-media-wrap'>
           <div class='social-icons'>
@@ -65,19 +47,13 @@ function Footer() {
               class='social-icon-link instagram'
               to='https://www.instagram.com/brian.b.f/'
               target='_blank'
-              aria-label='Instagram'
-            >
+              aria-label='Instagram'>
               <i class='fab fa-instagram' />
             </Link>
 
-            <Link
-              class='social-icon-link LinkedIn'
-              to='https://www.linkedin.com/in/bbfarias/'
-              target='_blank'
-              aria-label='LinkedIn'
-            >
-              <i class='fab fa-linkedin' />
-            </Link>
+          </div>
+          <div>
+            <p>B.farias1@ufl.edu</p>
           </div>
         </div>
       </section>

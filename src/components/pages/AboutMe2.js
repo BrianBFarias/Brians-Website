@@ -33,6 +33,7 @@ const isMobile = /Mobi/.test(navigator.userAgent);
                 <div id='tile2'>
                     <h2>Harvard's CS50 Web Programming with Python</h2>
                 </div>
+
             </div>
             <div className='title-box1'>
                 <h2>Experience</h2>
@@ -55,6 +56,9 @@ const isMobile = /Mobi/.test(navigator.userAgent);
             </div>
             <div id='tile2'>
                 <h2>Harvard's CS50 Web Programming with Python</h2>
+            </div>
+            <div id='tile1'>
+                <h2> 2023 Gator Hackathon</h2>
             </div>
         </div>
         <div className='title-box1'>

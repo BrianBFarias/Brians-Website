@@ -5,7 +5,7 @@ import CardItem from './CardItem';
 function Cards() {
   return (
     <div className='cards'>
-      <h1> <div className='bar2' ></div> <p>Projects I've worked on</p> <div className='bar2'></div> </h1>
+      <h1> <div className='bar2' ></div> Projects I've worked on <div className='bar2'></div> </h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
@@ -41,12 +41,7 @@ function Cards() {
               label='Java'
               path='https://github.com/BrianBFarias/Pakudex'
             />
-            <CardItem
-              src='images/Mail.jpg'
-              text='Mail with Mail API'
-              label='CSS/HTML/Javscript'
-              path='https://github.com/BrianBFarias/Mail-API'
-            />
+
             <CardItem
               src='images/PageRank.jpg'
               text='Simplified PageRank Algorithm'

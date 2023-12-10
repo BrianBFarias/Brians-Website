@@ -3,6 +3,8 @@ import './AboutMe3.css';
 import { Link } from 'react-router-dom';
 
 function AboutMe3() {
+  const isMobile = /Mobi/.test(navigator.userAgent);
+
   document.addEventListener('DOMContentLoaded', function(){
 
     var tile1s = document.querySelectorAll('#tile1');
@@ -16,20 +18,42 @@ function AboutMe3() {
         tile2s[i].style.animationPlayState = 'paused';
     }
   })
-  
-  return (
-    <div className="ABMD">
-        <div className='title-box1'>
-            <h2>Connect With Me</h2>
+
+  if(isMobile){
+    return(
+      <div className="ABMD">
+        <div className='mob-title-box1'>
+            <h2>CaSMM is a cloud based programming interface. <br />
+            Led team of 6 during 2 sprints while creating Teacher View 
+            Sector of this project. </h2>
         </div>
 
         <div className="info-mat">
             <Link
-                class='social-icon-link'
-                to='https://www.linkedin.com/in/bbfarias/'
-                target='_blank'
-                aria-label='LinkedIn'>
-                <i class='fab fa-linkedin' />
+              to='https://github.com/Team-10g/Emerald-Project17-10g'
+            >
+            
+            <img src="images/casmm.png" alt="" />
+            </Link>
+        </div>
+    </div>
+    )
+  }
+  
+  return (
+    <div className="ABMD">
+        <div className='title-box1'>
+            <h2>CaSMM is a cloud based programming interface. <br />
+             Led team of 6 during 2 sprints while creating Teacher View 
+             Sector of this project. </h2>
+        </div>
+
+        <div className="info-mat">
+            <Link
+              to='https://github.com/Team-10g/Emerald-Project17-10g'
+            >
+            
+            <img src="images/casmm.png" alt="" />
             </Link>
         </div>
     </div>

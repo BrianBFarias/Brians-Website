@@ -1,9 +1,10 @@
 import React, { useEffect } from "react";
 import '../App.css';
 import './MainSection.css';
-import Typewriter from 'typewriter-effect';
 
 function MainSection() {
+  const isMobile = /Mobi/.test(navigator.userAgent);
+
   useEffect(() => {
     const starField = document.getElementById('star-field');
     const starFieldWidth = window.innerWidth+10;
@@ -102,6 +103,16 @@ function MainSection() {
       return -1;
     else
       return 0;
+  }
+
+  if(isMobile){
+    return (
+      <div id='star-field'>
+        <h1 id="mob-name">
+          Hello I'm Brian
+        </h1>
+      </div>
+    );
   }
 
   return (

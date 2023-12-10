@@ -1,11 +1,10 @@
-import React, {useState} from 'react';
+import React from 'react';
 import Navbar from './components/Navbar';
 import './App.css';
 
 import Home from './components/pages/Home';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Resume from './components/pages/Resume';
-import Intro from './components/pages/Intro';
 
 
 function App() {
@@ -20,7 +19,7 @@ function onScroll(){
       const navBar = document.getElementById('navbar');
   
       const cards = document.querySelector('.cards')
-      const skills = document.querySelector('.about-me-container');
+      const skills = document.querySelector('.MeSection');
       const cards2 = document.getElementById('live-proj');
       const aboutMe = document.querySelector('.ABMC');
   
@@ -87,7 +86,6 @@ function onScroll(){
         <Routes>
           <Route path='/' element={<Home/>} />
           <Route path='/resume-pdf' element={<Resume/>} />
-          <Route path='/intro' element={<Intro/>} />
         </Routes>
       </Router>
     </>

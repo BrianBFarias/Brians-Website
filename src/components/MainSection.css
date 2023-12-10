@@ -48,6 +48,16 @@
     z-index: 1;
   }
 
+#mob-name{
+  position: relative;
+  top: 15vh;
+  text-align: center;
+  font-size: 14vw;
+  margin: auto;
+  color: rgb(202, 202, 202);
+  z-index: 1;
+}
+
  div #star-field {
     z-index:1;
     margin-top:-20px ;

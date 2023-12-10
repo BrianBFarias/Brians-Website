@@ -101,7 +101,7 @@
     }
 
     & .content #section1{
-        font-size: 1.8vw;
+        font-size: 1.8vh;
         & li{
             background-color: rgb(44, 130, 251);
             padding: 10px;
@@ -124,7 +124,7 @@
         display: block;
 
         & h2{
-            font-size: 3vw;
+            font-size: 3vh;
             margin-bottom: 15px;
         }
 
@@ -140,8 +140,9 @@
 
             & img{
                 height: 4vw;
+                max-height: 80px;
                 object-fit:scale-down;
-                margin: 2vw;
+                margin: 2vh;
                 font-size: 1.5vw;
             }
         }

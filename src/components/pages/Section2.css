@@ -155,6 +155,7 @@
         height: 100%;
 
         & li{
+            margin-bottom: 15px;
             background-color: rgb(44, 130, 251);
             padding: 10px;
             text-align: center;
@@ -187,7 +188,7 @@
             align-items: center;
             display: flex;
             flex-wrap: wrap;
-
+            background-color: white;
             border-radius: 20px;
 
             & img{

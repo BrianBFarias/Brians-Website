@@ -25,7 +25,7 @@ function AboutMe3() {
         <div className='mob-title-box1'>
             <h2>CaSMM is a cloud based programming interface. <br />
             Led team of 6 during 2 sprints while creating Teacher View 
-            Sector of this project. </h2>
+            cector of this project. </h2>
         </div>
 
         <div className="info-mat">
@@ -45,7 +45,7 @@ function AboutMe3() {
         <div className='title-box1'>
             <h2>CaSMM is a cloud based programming interface. <br />
              Led team of 6 during 2 sprints while creating Teacher View 
-             Sector of this project. </h2>
+             sector of this project. </h2>
         </div>
 
         <div className="info-mat">

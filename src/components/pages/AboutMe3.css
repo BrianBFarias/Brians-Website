@@ -50,7 +50,7 @@
         transition: 300ms;
     }
     & img:hover{
-        width: 23vw;
+        width: 22vw;
     }
 
     & a{

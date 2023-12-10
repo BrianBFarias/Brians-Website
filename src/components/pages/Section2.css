@@ -1,12 +1,10 @@
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 1000px) {
     .MeSection .image{
-        height: 50vh;
+        height: 100%;
         min-width: 350px;
-        max-height: 600px;
+        max-width: 500px;
         position: relative;
-        display: block;
-        object-fit: contain;
-    
+
         &::before {
             content: "";
             position: absolute;
@@ -24,11 +22,11 @@
         &::after {
             content: "";
             position: absolute;
-            bottom: 0%;
+            bottom: -.5%;
             height: 48.5%;
             right: 0%;
             rotate: 90deg;
-            width: 55%;
+            width: 56%;
             border-radius: 100%;
             border-top-left-radius: 100% 70%;
             border-top-right-radius: 100% 90%;
@@ -42,7 +40,7 @@
     width: 100%;
 }
 }
-@media screen and (max-width: 1299px) {
+@media screen and (max-width: 999px) {
     .MeSection .image{
         width: 30vw;
         min-width: 250px;
@@ -120,10 +118,10 @@
     } 
 
     & .content #section2{
-        display: flex;
         flex-direction: column;
         text-align: center;
         margin: auto;
+        display: block;
 
         & h2{
             font-size: 3vw;

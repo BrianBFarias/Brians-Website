@@ -59,7 +59,6 @@
 .MeSection{
     display: flex;
     background-color: whitesmoke;
-    border-bottom: 5px solid black;
     overflow: hidden;
 }
 

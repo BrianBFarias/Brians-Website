@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Button } from './Button';
+import { Button1 } from './Button1';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
 
@@ -7,8 +8,12 @@ function Navbar() {
   const [click, setClick] = useState(false);
   const [button, setButton] = useState(true);
 
-  const handleClick = () => setClick(!click);
-  const closeMobileMenu = () => setClick(false);
+  const handleClick = () =>{
+    setClick(!click);
+  } 
+  const closeMobileMenu = () =>{
+    setClick(false);
+  } 
 
   const showButton = () => {
     if (window.innerWidth <= 960) {
@@ -23,10 +28,6 @@ function Navbar() {
   }, []);
 
   window.addEventListener('resize', showButton);
-
-  window.onscroll = () => {
-    console.log(window.innerHeight + window.scrollY);
-  };
 
   return (
     <>
@@ -49,6 +50,8 @@ function Navbar() {
               </Link>
             </li>
           </ul>
+          {button && <Button1 id="projects" buttonStyle="btn--section"> Projects </Button1>}
+
           {button && <Button buttonStyle='btn--outline'>Resume</Button>}
         </div>
       </nav>

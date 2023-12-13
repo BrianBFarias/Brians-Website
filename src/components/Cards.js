@@ -5,15 +5,15 @@ import CardItem from './CardItem';
 function Cards() {
   return (
     <div className='cards'>
-      <h1> <div className='bar2' ></div> Projects I've worked on <div className='bar2'></div> </h1>
+      <h1> <div className='bar2' ></div> Project Highlights <div className='bar2'></div> </h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              src='images/AVL.jpg'
-              text='UF Student info AVL tree'
+              src='images/FS.png'
+              text='File System'
               label='C++'
-              path='https://github.com/BrianBFarias/Gator-AVL-Tree'
+              path=''
             />
             <CardItem
               src='images/Schedule.jpg'
@@ -26,27 +26,6 @@ function Cards() {
               text='Ecommerce Website'
               label='HTML/CSS/Python/SQL'
               path='https://github.com/BrianBFarias/ecommerce-website.git'
-            />
-          </ul>
-          <ul className='cards__items'>
-            <CardItem
-              src='images/network.png'
-              text='Linker: Networking site'
-              label='Python/Javscript/HTML/CSS'
-              path='https://github.com/BrianBFarias/linker'
-            />
-            <CardItem
-              src='images/Pakudex.jpg'
-              text='Pakudex: Pokemon holder'
-              label='Java'
-              path='https://github.com/BrianBFarias/Pakudex'
-            />
-
-            <CardItem
-              src='images/PageRank.jpg'
-              text='Simplified PageRank Algorithm'
-              label='C++'
-              path='https://github.com/BrianBFarias/PageRank-Algorithm'
             />
           </ul>
         </div>

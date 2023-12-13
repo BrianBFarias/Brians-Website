@@ -3,9 +3,9 @@ import React from 'react';
 import './Button1.css';
 import { Link } from 'react-router-dom';
 
-const STYLES = ['btn--primary', 'btn--outline', 'btn--test'];
+const STYLES = ['btn--primary', 'btn--section'];
 
-const SIZES = ['btn--medium', 'btn--large', 'btn--large1'];
+const SIZES = ['btn--med', 'btn--large'];
 
 export const Button1 = ({
   children,
@@ -21,7 +21,7 @@ export const Button1 = ({
   const checkButtonSize = SIZES.includes(buttonSize) ? buttonSize : SIZES[0];
 
   return (
-    <Link to='/intro' className='btn-mobile1'>
+    <Link to='/projects' className='btn-mobile1'>
       <button
         className={`btn ${checkButtonStyle} ${checkButtonSize}`}
         onClick={onClick}
@@ -29,6 +29,7 @@ export const Button1 = ({
       >
         {children}
       </button>
+      <div className='bar'></div>
     </Link>
   );
 };

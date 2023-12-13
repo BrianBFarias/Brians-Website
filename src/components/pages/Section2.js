@@ -24,6 +24,9 @@ function Section2() {
       }, [section]);
 
     function moveSelectionUp(){
+        if(window.location.pathname != "/"){
+            return;
+        }
         const current = document.getElementsByName(section);
         let next;
         var sectionVal;
@@ -47,6 +50,9 @@ function Section2() {
     }
 
     function moveSelectionDown(){
+        if(window.location.pathname != "/"){
+            return;
+        }
         const current = document.getElementsByName(section);
         let next;
         var sectionVal;

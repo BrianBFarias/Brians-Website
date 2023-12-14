@@ -183,7 +183,7 @@ function Projects() {
             src='images/FS.png'
             text='File System'
             path=''
-            description = {`This project was a part of UF's Operating Systems, it involves creating a userspace filesystem daemon using the FUSE API to enable read and write access 
+            description = {`This project was a part of UF's Operating Systems course, it involves creating a userspace filesystem daemon using the FUSE API to enable read and write access 
             to files and directories within WAD (Where's All the Data) format. The implementation serves as a critical prototype 
             to demonstrate proof-of-concept functionality, with provided sample WAD files.`}
             tech = "C++/FUSE API"

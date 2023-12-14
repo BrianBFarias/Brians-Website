@@ -9,18 +9,24 @@ import Projects from './Projects';
 
 function Home() {
   console.log(window.location.pathname);
+
   window.addEventListener('scroll', onScroll);
 
   function onScroll(){
       window.onscroll = () => {
+        const statusBar = document.getElementById('stat');
+
         if(window.location.pathname != "/"){
+          statusBar.className = 'status-gone';
           return;
+        }
+        else{
+          statusBar.className = 'status';
         }
 
         var tile1s = document.querySelectorAll('#tile1');
         var tile2s = document.querySelectorAll('#tile2');
     
-        const statusBar = document.getElementById('stat');
         const navBar = document.getElementById('navbar');
     
         const cards = document.querySelector('.cards')

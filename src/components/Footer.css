@@ -2,7 +2,7 @@
   position: relative;
   z-index: 3;
   background-color: #1b1b28;
-  padding-block:3vh;
+  height: 80px;
   display: flex;
   flex-direction: column;
   justify-content: center;

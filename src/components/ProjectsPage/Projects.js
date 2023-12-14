@@ -151,7 +151,7 @@ function Projects() {
             src='images/SR.png'
             text='Saucer Roster'
             path='https://github.com/BrianBFarias/SaucerRoster'
-            description = {`Created for Harvards Web Programming with Python as a final Project. Saucer Roster is a sophisticated website with the mail goal of ranking sauces.
+            description = {`Created for Harvards Web Programming with Python as a final Project. Saucer Roster is a sophisticated website with the main goal of ranking sauces.
             Users aquire keys as they rank more sauces. The more keys aquired the more accurate their 'reccomended' section is. This website also provides in-depth filtering,
             with 20+ different filtering options. The final feature is a reddit influenced commenting functionality on all sauces.`}
             tech = "HTML/Django/Python/CSS/Javascript"

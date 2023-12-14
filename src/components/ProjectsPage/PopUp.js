@@ -7,7 +7,9 @@ const PopUps = ({image, title, description, link, tech}) =>{
     return(
     <div className="box">
         <section className="image">
-            <img src={image} alt="" />
+            <div className="image-box">
+                <img src={image} alt="" />
+            </div>
         </section>
         <section className="info-data">
             <h3>{title}</h3>

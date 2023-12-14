@@ -36,6 +36,9 @@
             max-width: 1000px;
             height: 60%;
             overflow: hidden;
+            margin-inline: auto;
+            justify-content: center;
+            align-items: center;
             border-radius: 10px;
             top: 12%;
             display: flex;

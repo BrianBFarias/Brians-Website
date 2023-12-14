@@ -40,6 +40,15 @@ function Navbar() {
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
           </div>
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
+          <li>
+              <Link
+                to='/projects'
+                className='nav-links-mobile'
+                onClick={closeMobileMenu}
+              >
+                Projects
+              </Link>
+            </li>
             <li>
               <Link
                 to='/resume-pdf'

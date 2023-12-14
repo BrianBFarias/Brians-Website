@@ -13,16 +13,19 @@ function Cards() {
               src='images/FS.png'
               text='File System'
               label='C++'
+              path="/projects"
             />
             <CardItem
               src='images/Schedule.jpg'
               text='Schedule Chomper'
               label='C++/SFML/Python'
+              path="/projects"
             />
             <CardItem
               src='images/Auction.png'
               text='Ecommerce Website'
               label='HTML/CSS/Python/SQL'
+              path="/projects"
             />
           </ul>
         </div>

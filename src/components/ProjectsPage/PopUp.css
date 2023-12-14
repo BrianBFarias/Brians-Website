@@ -95,11 +95,15 @@
             text-decoration: none;
             cursor: pointer;
             color: whitesmoke;
+            align-items: center;
+            margin-block: auto;
         }
         & i{
             text-decoration: none;
             cursor: pointer;
             color: whitesmoke;
+            align-items: center;
+            margin-block: auto;
         }
 
         & p{

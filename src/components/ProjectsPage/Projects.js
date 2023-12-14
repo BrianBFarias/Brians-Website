@@ -170,7 +170,7 @@ function Projects() {
             description = {`This project was a part of UF's Intro to Software Engeering course, working with a team of 6. As the Scrum Master for this project, I was in charge of handling
             repo access and control for all members as well as creating issues for the project board and hosting weekly coding meetings to help less experienced members with Full-Stack development.
             We applied Agile Methodologies for a total of 3 weeks, broken into 2 seperate sprints to create the Teacher-View section of this project.`}
-            tech = "HTML/Django/Python/CSS/Javascript"
+            tech = "HTML/Node.js/Strapi/CSS/Javascript"
             setVisible={setVisible}
             setSelected={setSelected}
             setImage = {setImage}

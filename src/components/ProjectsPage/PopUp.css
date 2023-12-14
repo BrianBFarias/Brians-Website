@@ -34,10 +34,11 @@
 
         & img{
             position: relative;
-            object-fit: cover;
+            object-fit: contain;
             display: flex;
             border-radius: 8px;
             height: 100%;
+            max-width: 100%;
             overflow: hidden;
         }
 
@@ -84,9 +85,10 @@
         gap: 30px;
         font-size: 30px;
         padding-block: 20px;
-        padding-left: 10%;
+        padding-left: 5%;
         color: whitesmoke;
         height: fit-content;
+        overflow-x: hidden;
         width: 100%;
 
         & i:visited{

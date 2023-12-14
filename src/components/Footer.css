@@ -2,7 +2,7 @@
   position: relative;
   z-index: 3;
   background-color: #1b1b28;
-  padding-block:50px;
+  padding-block:3vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -22,6 +22,24 @@
   & .social-icons i{
     margin-inline: 20px;
     font-size: 50px;
+    color: white;
+  }
+}
+
+.mob-social-media-wrap{
+  display: flex;
+  align-items: center;
+  gap:10px;
+  
+  & p{
+    color: white;
+    margin: auto;
+    font-size: 15px;
+  }
+
+  & .social-icons i{
+    margin-inline: 20px;
+    font-size: 30px;
     color: white;
   }
 }

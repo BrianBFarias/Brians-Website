@@ -7,11 +7,14 @@ function MainSection() {
 
   if(isMobile){
     return (
-      <div id='star-field'>
-        <h1 id="mob-name">
-          Hello I'm Brian
-        </h1>
+      <div id='star-field' >
+      <div className="blur">
+      <h1 id="mob-name">
+        Hello I'm Brian
+      </h1>
       </div>
+
+    </div>
     );
   }
 

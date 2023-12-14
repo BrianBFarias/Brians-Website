@@ -38,7 +38,7 @@ const isMobile = /Mobi/.test(navigator.userAgent);
                 </div>
 
             </div>
-            <div className='title-box1'>
+            <div className='mob-title-box1'>
                 <h2>Experience</h2>
             </div>
         </div>

@@ -21,27 +21,23 @@ function AboutMe3() {
 
   if(isMobile){
     return(
-      <div className="ABMD">
-        <div className='mob-title-box1'>
-            <h2>CaSMM is a cloud based programming interface. <br />
-            Led team of 6 during 2 sprints while creating Teacher View 
-            cector of this project. </h2>
-        </div>
-
+      <div className="ABMD" id='mob-3'>
         <div className="info-mat">
             <Link
-              to='https://github.com/Team-10g/Emerald-Project17-10g'
+              to='/projects'
             >
-            
             <img src="images/casmm.png" alt="" />
             </Link>
+        </div>
+        <div className='mob-title-box1'>
+            <h2>CaSMM</h2>
         </div>
     </div>
     )
   }
   
   return (
-    <div className="ABMD">
+    <div className="ABMD" id='sec-3'>
         <div className='title-box1'>
             <h2>CaSMM is a cloud based programming interface. <br />
              Led team of 6 during 2 sprints while creating Teacher View 

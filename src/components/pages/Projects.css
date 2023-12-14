@@ -1,4 +1,4 @@
-#live-proj{
+.lp{
     display: grid;
     grid-template-columns: auto 1fr;
     width: 100vw;
@@ -16,8 +16,6 @@
     }
 
 
-    /* Bottom curve to title containers */
-
     & .title-box::before {
         content: "";
         position: absolute;
@@ -32,7 +30,7 @@
     
 }
 
-#live-proj h2{
+.lp h2{
     padding-block: 20px;
     color: white;
     text-align: center;
@@ -42,7 +40,7 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-#live-proj .info-mat{
+.lp .info-mat{
     display: flex;
     background: #e2e5ed;
 }
@@ -66,4 +64,40 @@
     background-color: #913333;
     padding-block: 50px;
 
+}
+
+
+.mob-lp{
+    display: grid;
+    grid-template-columns: 1fr auto ;
+    background: #e2e5ed;
+
+    & .title-box{
+        writing-mode:vertical-rl;
+        /* rotate: 180deg; */
+        position: relative;
+        background-color: black;
+        padding-left: 10px;
+        text-align: center;
+
+        & h2{
+            margin: auto;
+            color: white;
+            left: 0px;
+            font-size: 40px;
+            font-family: 'Lucida Sans',
+             'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+    }
+
+    & .info-mat{
+        margin-block: 10vh;
+        width: 100%;
+        text-overflow: ellipsis " [..]";
+
+        & .cards__item__pic-wrap::after{
+            overflow: hidden;
+            white-space: nowrap;
+        }
+    }
 }

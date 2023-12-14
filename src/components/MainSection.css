@@ -38,7 +38,7 @@
   
   }
 
-#name{
+#name, #mob-name{
     position: relative;
     text-align: center;
     margin: auto;
@@ -49,16 +49,9 @@
     font-size: 9vh;
     color: rgb(77, 77, 77);
     z-index: 2;
-  }
-
+}
 #mob-name{
-  position: relative;
-  top: 15vh;
-  text-align: center;
-  font-size: 14vw;
-  margin: auto;
-  color: rgb(202, 202, 202);
-  z-index: 1;
+  font-size: 6vh;
 }
 
 #star-field {

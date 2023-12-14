@@ -55,7 +55,7 @@ function Projects() {
             src='images/Auction.png'
             text='Ecommerce Website'
             path='https://github.com/BrianBFarias/ecommerce-website.git'
-            description = {`Apart of Harvard's CS50 Intro to Web programming with Python, this website mimicks a auction website.
+            description = {`A part of Harvard's CS50 Intro to Web programming with Python, this website mimicks a auction website.
             User's are able to list items for sale at any desirable price while choosing a category for their item. When shoping,
             Users can Purchase/Bid on items or browse through different categories. The below link provides a Demo of the Project.`}
             tech = "HTML/Django/Python/CSS/Javascript"

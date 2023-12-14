@@ -107,7 +107,7 @@ function Projects() {
             text='Student Info AVL Tree'
             path='https://github.com/BrianBFarias/Gator-AVL-Tree'
             description = {`Student AVL tree Project for Data Structures and Algorithms at UF. This algorithm creates a tree of student data
-            It ensures the tree stays balanced at all times while adding or removing elemnts from it.`}
+            It ensures the tree stays balanced at all times while adding or removing elements from it.`}
             tech = "C++"
             setVisible={setVisible}
             setSelected={setSelected}

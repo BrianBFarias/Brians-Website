@@ -33,7 +33,7 @@
 
         & img{
             position: relative;
-            object-fit: contain;
+            object-fit: cover;
             display: flex;
             border-radius: 8px;
             height: 100%;

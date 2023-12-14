@@ -13,9 +13,6 @@ function App() {
   return (
     <>
     <Router>
-      <head>
-        
-      </head>
         <Navbar/>
         <div id='stat' className="status"> 
           <div class="progress-bar" id="myBar"></div>

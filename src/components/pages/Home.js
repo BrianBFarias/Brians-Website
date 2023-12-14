@@ -55,7 +55,7 @@ function Home() {
     
         var height = window.scrollY;
     
-        const part1 = navBar.offsetHeight;
+        const part1 = skills.offsetHeight-navBar.offsetHeight;
         const part2 = part1 + cards.offsetHeight;
         const part3 = part2 + cards2.offsetHeight;
         const part4 = part3 + aboutMe.offsetHeight

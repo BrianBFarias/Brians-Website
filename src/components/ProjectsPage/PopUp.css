@@ -81,24 +81,27 @@
     & .tags{
         position: relative;
         bottom: 0;
-        display: flex;
+        display: grid;
+        grid-template-columns: auto 1fr;
         gap: 30px;
         font-size: 30px;
-        padding-block: 20px;
+        padding-block: 15px;
         padding-left: 5%;
         color: whitesmoke;
+        align-items: center;
+        min-height: 10%;
         height: fit-content;
         overflow: hidden;
         width: 100%;
 
-        & i:visited{
+        & div a:visited{
             text-decoration: none;
             cursor: pointer;
             color: whitesmoke;
             align-items: center;
             margin-block: auto;
         }
-        & i{
+        & div a{
             text-decoration: none;
             cursor: pointer;
             color: whitesmoke;
@@ -106,8 +109,9 @@
             margin-block: auto;
         }
 
-        & p{
+        & div p{
             background-color: whitesmoke;
+            width: fit-content;
             color: rgb(44, 44, 44);
             border-radius: 8px;
             margin-block: auto;

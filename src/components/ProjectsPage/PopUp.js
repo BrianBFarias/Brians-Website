@@ -17,17 +17,21 @@ const PopUps = ({image, title, description, link, tech}) =>{
             <p>{description}</p>
         </section>
         <section className="tags">
-            {link !== '' && (
-                <Link
-                    className='social-icon-link instagram'
-                    to={link}
-                    target='_blank'
-                    aria-label='Instagram'
-                >
-                    <i className="fa-brands fa-github" id="github"></i>
-                </Link>
-            )}
-            <p>{tech}</p>
+            <div>
+                {link !== '' && (
+                    <Link
+                        className='social-icon-link github'
+                        to={link}
+                        target='_blank'
+                        aria-label='Instagram'
+                    >
+                        <i className="fa-brands fa-github" id="github"></i>
+                    </Link>
+                )}
+            </div>
+            <div>
+                <p>{tech}</p>
+            </div>
         </section>
     </div>);
 }

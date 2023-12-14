@@ -88,7 +88,7 @@
         padding-left: 5%;
         color: whitesmoke;
         height: fit-content;
-        overflow-x: hidden;
+        overflow: hidden;
         width: 100%;
 
         & i:visited{

@@ -14,10 +14,11 @@
 }
 
 #page{
-    min-height: calc(100vh - 160px);
+    min-height: calc(100vh - 80px);
     background-color: #e2e5ed;
     display: flex;
     flex-direction: column;
+    padding-top: 80px;
 
     & .pop-up{
         position: fixed;

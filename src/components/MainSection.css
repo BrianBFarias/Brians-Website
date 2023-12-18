@@ -2,7 +2,6 @@
     --size: 15px;
   }
 
-
   .main-container {
     height: 60vh;
     width: 100%;
@@ -55,7 +54,7 @@
 }
 
 #star-field {
-  height: 50vh;
+  height: 70vh;
   display: flex;
   background-image: url("bg/bg1.png"), url("bg/bg2.png");
   background-position: top left, bottom right;

@@ -3,12 +3,13 @@ import React from 'react';
 import './Button.css';
 import { Link } from 'react-router-dom';
 
-const STYLES = ['btn--primary', 'btn--outline', 'btn--test'];
+const STYLES = ['btn--primary', 'btn--section'];
 
-const SIZES = ['btn--medium', 'btn--large', 'btn--large1'];
+const SIZES = ['btn--med', 'btn--large'];
 
 export const Button = ({
   children,
+  path,
   type,
   onClick,
   buttonStyle,
@@ -21,7 +22,7 @@ export const Button = ({
   const checkButtonSize = SIZES.includes(buttonSize) ? buttonSize : SIZES[0];
 
   return (
-    <Link to='/resume-pdf' className='btn-mobile'>
+    <Link to={path} className='btn-mobile1'>
       <button
         className={`btn ${checkButtonStyle} ${checkButtonSize}`}
         onClick={onClick}
@@ -29,6 +30,7 @@ export const Button = ({
       >
         {children}
       </button>
+      <div className='bar'></div>
     </Link>
   );
 };

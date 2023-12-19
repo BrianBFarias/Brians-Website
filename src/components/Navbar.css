@@ -8,7 +8,7 @@
   align-items: center;
   font-size: 1.2rem;
   width:100%;
-  z-index: 999;
+  z-index: 3;
 }
 
 .navbar-container {
@@ -29,6 +29,7 @@
   display: flex;
   align-items: center;
   text-shadow: 0px 0px 10px black;
+  z-index: 3;
 }
 
 .fa-typo3 {
@@ -86,21 +87,37 @@
   .nav-menu {
     display: flex;
     flex-direction: column;
-    width: 100%;
-    height: 90vh;
     position: absolute;
-    top: 80px;
-    left: -100%;
-    opacity: 1;
-    transition: all 0.5s ease;
+    background: #242222;
+    height: 50vh;
+    top:-100%;
+    left: 0;
+    width: 100%;
+    opacity: 0;
+    transition:0.5s;
+    z-index: 1;
+    justify-content: bottom;
   }
 
-  .nav-menu.active {
+  .mobile-nav-menu {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
     background: #242222;
+    height: 100vh;
+    top:0;
     left: 0;
+    width: 100%;
     opacity: 1;
-    transition: all 0.5s ease;
+    transition:0.5s;
     z-index: 1;
+    justify-content:end;
+    padding-bottom: 15vh;
+
+    & li{
+      list-style: none;
+      height: fit-content;
+    }
   }
 
   .nav-links {
@@ -128,6 +145,7 @@
     position: absolute;
     top: 0;
     right: 0;
+    z-index: 3;
     transform: translate(-100%, 60%);
     font-size: 1.8rem;
     cursor: pointer;
